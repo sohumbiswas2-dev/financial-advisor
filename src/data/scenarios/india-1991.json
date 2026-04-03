@@ -1,0 +1,207 @@
+{
+  "scenarioMeta": {
+    "id": "india-1991",
+    "name": "1991 India Market Opening",
+    "year": 1992,
+    "description": "End of 'License Raj' and opening of the Indian economy.",
+    "timeline": [
+      { "year": 1991, "event": "Forex crisis forces liberalization" },
+      { "year": 1992, "event": "Harshad Mehta scam exposed" },
+      { "year": 1993, "event": "NSE begins operations" }
+    ],
+    "sectors": [
+      {
+        "name": "Technology",
+        "description": "IT services began their global ascent.",
+        "companies": [
+          { "name": "Infosys", "sector": "Technology", "initialPrice": 10, "finalPrice": 150, "description": "IT services pioneer." },
+          { "name": "Wipro", "sector": "Technology", "sector": "Technology", "initialPrice": 15, "finalPrice": 120, "description": "Tech conglomerate." },
+          { "name": "MTNL", "sector": "Technology", "initialPrice": 120, "finalPrice": 30, "description": "Telecom monopoly." }
+        ]
+      },
+      {
+        "name": "Automotive",
+        "description": "Legacy manufacturers facing new global competition.",
+        "companies": [
+          { "name": "Premier Automobiles", "sector": "Automotive", "initialPrice": 40, "finalPrice": 5, "description": "Iconic sedan maker." },
+          { "name": "Hindustan Motors", "sector": "Automotive", "initialPrice": 50, "finalPrice": 10, "description": "National car symbol." }
+        ]
+      },
+      {
+        "name": "Banking",
+        "description": "Private banks emerged to challenge state monopolies.",
+        "companies": [
+          { "name": "HDFC", "sector": "Banking", "initialPrice": 20, "finalPrice": 200, "description": "Housing finance." },
+          { "name": "SBI", "sector": "Banking", "initialPrice": 50, "finalPrice": 80, "description": "State-owned giant." }
+        ]
+      },
+      {
+        "name": "Energy",
+        "description": "Reliance began its massive expansion.",
+        "companies": [
+          { "name": "Reliance", "sector": "Energy", "initialPrice": 30, "finalPrice": 250, "description": "Petrochemicals to telecom." }
+        ]
+      },
+      {
+        "name": "Healthcare",
+        "description": "Generic pharma started exporting globally.",
+        "companies": [
+          { "name": "Sun Pharma", "sector": "Healthcare", "initialPrice": 25, "finalPrice": 180, "description": "Generic medicines." }
+        ]
+      },
+      {
+        "name": "Real Estate",
+        "description": "Urbanization drove early land booms.",
+        "companies": [
+          { "name": "DLF", "sector": "Real Estate", "initialPrice": 40, "finalPrice": 90, "description": "Delhi land developer." }
+        ]
+      },
+      {
+        "name": "Consumer",
+        "description": "A new middle class demanded global brands.",
+        "companies": [
+          { "name": "HUL", "sector": "Consumer", "initialPrice": 60, "finalPrice": 110, "description": "FMCG leader." }
+        ]
+      },
+      {
+        "name": "Industrials",
+        "description": "Infrastructure spending increased.",
+        "companies": [
+          { "name": "L&T", "sector": "Industrials", "initialPrice": 45, "finalPrice": 130, "description": "Engineering giant." }
+        ]
+      },
+      {
+        "name": "Commodities",
+        "description": "Steel and cement grew with the economy.",
+        "companies": [
+          { "name": "Tata Steel", "sector": "Commodities", "initialPrice": 55, "finalPrice": 100, "description": "Legacy steelmaker." }
+        ]
+      }
+    ]
+  },
+  "monthlyData": [
+    {
+      "month": "January 1992",
+      "date": "1992-01",
+      "news": [
+        { "title": "SEBI Granted Statutory Powers", "summary": "The Securities and Exchange Board of India becomes an autonomous body.", "source": "Economic Times", "sentiment": "bullish" },
+        { "title": "Foreign Direct Investment Rules Relaxed", "summary": "Government allows up to 51% foreign equity in high-priority industries.", "source": "Business Standard", "sentiment": "bullish" },
+        { "title": "Inflation Remains Stubbornly High", "summary": "Prices continue to rise despite monetary tightening.", "source": "RBI Bulletin", "sentiment": "bearish" },
+        { "title": "Sensex Crosses 2,000 Mark", "summary": "Stock market rallies on liberalization hopes.", "source": "Dalal Street Journal", "sentiment": "bullish" }
+      ],
+      "macroData": { "gdpGrowth": 1.1, "inflation": 13.5, "unemployment": 6.0, "interestRate": 12.0 },
+      "sectorPerformance": { "Technology": 5, "Banking": 12, "Energy": 8, "Healthcare": 4, "Real Estate": 6, "Consumer": 7, "Industrials": 10, "Commodities": 9 },
+      "fearGreedIndex": 75
+    },
+    {
+      "month": "February 1992",
+      "date": "1992-02",
+      "news": [
+        { "title": "Manmohan Singh Presents Historic Budget", "summary": "Import duties slashed, rupee made partially convertible.", "source": "The Hindu", "sentiment": "bullish" },
+        { "title": "FIIs Allowed to Invest", "summary": "Foreign Institutional Investors can now enter the Indian stock market.", "source": "Financial Express", "sentiment": "bullish" },
+        { "title": "Market Frenzy Continues", "summary": "Retail investors flock to Dalal Street as indices soar.", "source": "Times of India", "sentiment": "bullish" },
+        { "title": "Trade Deficit Narrows", "summary": "Devaluation of the rupee begins to boost exports.", "source": "Commerce Ministry", "sentiment": "neutral" }
+      ],
+      "macroData": { "gdpGrowth": 2.5, "inflation": 12.8, "unemployment": 5.9, "interestRate": 12.0 },
+      "sectorPerformance": { "Technology": 8, "Banking": 18, "Energy": 15, "Healthcare": 6, "Real Estate": 12, "Consumer": 10, "Industrials": 14, "Commodities": 11 },
+      "fearGreedIndex": 90
+    },
+    {
+      "month": "March 1992",
+      "date": "1992-03",
+      "news": [
+        { "title": "Sensex Hits 4,000", "summary": "The index doubles in just a few months. 'Big Bull' Harshad Mehta leads the charge.", "source": "Economic Times", "sentiment": "bullish" },
+        { "title": "Banks Report Record Profits", "summary": "Financial sector benefits from market boom and high interest rates.", "source": "Business Today", "sentiment": "bullish" },
+        { "title": "Concerns Over Market Valuation", "summary": "Some analysts warn that the rally is disconnected from economic fundamentals.", "source": "Mint", "sentiment": "bearish" },
+        { "title": "Rupee Stabilizes", "summary": "Currency markets calm down after initial volatility post-convertibility.", "source": "RBI", "sentiment": "neutral" }
+      ],
+      "macroData": { "gdpGrowth": 3.8, "inflation": 11.5, "unemployment": 5.8, "interestRate": 13.0 },
+      "sectorPerformance": { "Technology": 12, "Banking": 25, "Energy": 20, "Healthcare": 10, "Real Estate": 18, "Consumer": 15, "Industrials": 22, "Commodities": 16 },
+      "fearGreedIndex": 98
+    },
+    {
+      "month": "April 1992",
+      "date": "1992-04",
+      "news": [
+        { "title": "The Scam Breaks", "summary": "Journalist Sucheta Dalal exposes a massive ₹4,000 crore securities scam involving Harshad Mehta.", "source": "Times of India", "sentiment": "bearish" },
+        { "title": "Market Crashes", "summary": "Sensex plummets as panic selling grips Dalal Street.", "source": "Business Standard", "sentiment": "bearish" },
+        { "title": "Banks Implicated", "summary": "Several major banks found to have issued fake bank receipts.", "source": "Financial Express", "sentiment": "bearish" },
+        { "title": "RBI Launches Investigation", "summary": "Central bank steps in to audit the banking system's exposure.", "source": "RBI", "sentiment": "neutral" }
+      ],
+      "macroData": { "gdpGrowth": 4.2, "inflation": 10.9, "unemployment": 5.8, "interestRate": 14.0 },
+      "sectorPerformance": { "Technology": -5, "Banking": -35, "Energy": -20, "Healthcare": -8, "Real Estate": -25, "Consumer": -12, "Industrials": -18, "Commodities": -15 },
+      "fearGreedIndex": 15
+    },
+    {
+      "month": "May 1992",
+      "date": "1992-05",
+      "news": [
+        { "title": "Harshad Mehta Arrested", "summary": "CBI takes the 'Big Bull' into custody.", "source": "The Hindu", "sentiment": "bearish" },
+        { "title": "Trading Halted", "summary": "BSE shuts down temporarily due to payment crisis and broker defaults.", "source": "Economic Times", "sentiment": "bearish" },
+        { "title": "Foreign Investors Spooked", "summary": "FIIs pause investments amid regulatory uncertainty.", "source": "Reuters", "sentiment": "bearish" },
+        { "title": "Industrial Production Picks Up", "summary": "Real economy shows signs of life despite financial market turmoil.", "source": "CSO", "sentiment": "bullish" }
+      ],
+      "macroData": { "gdpGrowth": 4.5, "inflation": 10.5, "unemployment": 5.7, "interestRate": 15.0 },
+      "sectorPerformance": { "Technology": -2, "Banking": -15, "Energy": -10, "Healthcare": 2, "Real Estate": -12, "Consumer": -5, "Industrials": -8, "Commodities": -6 },
+      "fearGreedIndex": 10
+    },
+    {
+      "month": "June 1992",
+      "date": "1992-06",
+      "news": [
+        { "title": "SEBI Tightens Regulations", "summary": "New rules introduced to prevent a repeat of the securities scam.", "source": "SEBI", "sentiment": "neutral" },
+        { "title": "Market Begins Slow Recovery", "summary": "Bargain hunters step in as valuations become attractive again.", "source": "Dalal Street Journal", "sentiment": "bullish" },
+        { "title": "Monsoon Arrives on Time", "summary": "Good rains boost agricultural outlook and rural demand.", "source": "IMD", "sentiment": "bullish" },
+        { "title": "Software Exports Surge", "summary": "IT companies report strong dollar earnings.", "source": "NASSCOM", "sentiment": "bullish" }
+      ],
+      "macroData": { "gdpGrowth": 5.0, "inflation": 10.1, "unemployment": 5.7, "interestRate": 15.0 },
+      "sectorPerformance": { "Technology": 15, "Banking": 5, "Energy": 8, "Healthcare": 12, "Real Estate": 2, "Consumer": 10, "Industrials": 6, "Commodities": 5 },
+      "fearGreedIndex": 35
+    }
+  ],
+  "investorDecisions": [
+    {
+      "investorId": "buffett",
+      "name": "Warren Buffett",
+      "philosophy": "Value investing, long horizon, avoids leverage",
+      "riskTolerance": 4,
+      "preferredSectors": ["Consumer", "Banking"],
+      "avoidsSectors": ["Technology", "Commodities"],
+      "allocations": { "HUL": 5000, "HDFC": 5000 }
+    },
+    {
+      "investorId": "soros",
+      "name": "George Soros",
+      "philosophy": "Macro bets, reflexivity theory, high conviction short positions",
+      "riskTolerance": 9,
+      "preferredSectors": ["Banking", "Real Estate"],
+      "avoidsSectors": ["Consumer", "Healthcare"],
+      "allocations": { "SBI": 4000, "DLF": 3000, "Reliance": 3000 }
+    },
+    {
+      "investorId": "lynch",
+      "name": "Peter Lynch",
+      "philosophy": "Growth at reasonable price, retail insights, sector rotation",
+      "riskTolerance": 6,
+      "preferredSectors": ["Technology", "Consumer", "Healthcare"],
+      "avoidsSectors": ["Commodities", "Real Estate"],
+      "allocations": { "Infosys": 4000, "HUL": 3000, "Sun Pharma": 3000 }
+    },
+    {
+      "investorId": "jhunjhunwala",
+      "name": "Rakesh Jhunjhunwala",
+      "philosophy": "India growth story, concentrated bets, high risk",
+      "riskTolerance": 8,
+      "preferredSectors": ["Consumer", "Technology", "Industrials"],
+      "avoidsSectors": ["Commodities"],
+      "allocations": { "Infosys": 5000, "L&T": 3000, "HDFC": 2000 }
+    }
+  ],
+  "lessonsTriggered": [],
+  "legendaryQuotes": [
+    { "investorId": "buffett", "quote": "Price is what you pay. Value is what you get." },
+    { "investorId": "soros", "quote": "Markets are constantly in a state of uncertainty and flux, and money is made by discounting the obvious and betting on the unexpected." },
+    { "investorId": "lynch", "quote": "In this business, if you're good, you're right six times out of ten. You're never going to be right nine times out of ten." },
+    { "investorId": "jhunjhunwala", "quote": "Respect the market. Have an open mind. Know what to stake. Know when to take a loss. Be responsible." }
+  ]
+}

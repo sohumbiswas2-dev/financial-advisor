@@ -1,0 +1,56 @@
+[
+  {
+    "id": "dot-com-bubble",
+    "year": "1995-2000",
+    "title": "The Dot-Com Bubble",
+    "category": "Market Bubble",
+    "summary": "A rapid rise in U.S. equity valuations fueled by investments in Internet-based companies. Speculation and an abundance of venture capital funding for startups led to a massive bubble that eventually burst, wiping out trillions in market value.",
+    "keyPlayers": ["Pets.com", "Webvan", "Cisco Systems", "Alan Greenspan"],
+    "impact": "Led to the Sarbanes-Oxley Act of 2002 to protect investors from the possibility of fraudulent accounting activities by corporations. Shifted investor focus from 'eyeballs' back to traditional metrics like cash flow and profitability."
+  },
+  {
+    "id": "2008-financial-crisis",
+    "year": "2007-2008",
+    "title": "The Global Financial Crisis",
+    "category": "Systemic Crisis",
+    "summary": "Triggered by a large decline in US home prices after the collapse of a housing bubble, leading to mortgage delinquencies, foreclosures, and the devaluation of housing-related securities.",
+    "keyPlayers": ["Lehman Brothers", "Bear Stearns", "AIG", "Federal Reserve"],
+    "impact": "Resulted in the Dodd-Frank Wall Street Reform and Consumer Protection Act. Introduced massive quantitative easing (QE) programs by central banks globally and fundamentally changed banking capital requirements (Basel III)."
+  },
+  {
+    "id": "black-monday",
+    "year": "1987",
+    "title": "Black Monday",
+    "category": "Market Crash",
+    "summary": "On October 19, 1987, stock markets around the world crashed, shedding a huge value in a very short time. The Dow Jones Industrial Average (DJIA) fell exactly 508 points to 1,738.74 (22.61%).",
+    "keyPlayers": ["Portfolio Insurance Algorithms", "Institutional Investors"],
+    "impact": "Led to the introduction of 'circuit breakers' (trading curbs) to prevent similar massive panic sell-offs. Highlighted the dangers of programmatic trading without human oversight."
+  },
+  {
+    "id": "asian-financial-crisis",
+    "year": "1997",
+    "title": "Asian Financial Crisis",
+    "category": "Currency Crisis",
+    "summary": "A period of financial crisis that gripped much of East Asia and Southeast Asia beginning in July 1997 and raised fears of a worldwide economic meltdown due to financial contagion.",
+    "keyPlayers": ["Thai Baht", "IMF", "George Soros", "South Korean Chaebols"],
+    "impact": "Led to massive IMF bailouts with strict structural adjustment conditions. Many Asian nations built up massive foreign exchange reserves to prevent future currency attacks."
+  },
+  {
+    "id": "enron-scandal",
+    "year": "2001",
+    "title": "The Enron Scandal",
+    "category": "Corporate Fraud",
+    "summary": "Enron Corporation, an American energy, commodities, and services company, was revealed to have engaged in massive accounting fraud, hiding billions of dollars in debt from failed deals and projects.",
+    "keyPlayers": ["Jeffrey Skilling", "Kenneth Lay", "Arthur Andersen (Auditor)"],
+    "impact": "Led to the bankruptcy of Enron and the dissolution of Arthur Andersen. Was a primary catalyst for the Sarbanes-Oxley Act, drastically increasing the penalties for destroying, altering, or fabricating records in federal investigations."
+  },
+  {
+    "id": "tulip-mania",
+    "year": "1636-1637",
+    "title": "Tulip Mania",
+    "category": "Market Bubble",
+    "summary": "A period during the Dutch Golden Age when contract prices for some bulbs of the recently introduced and fashionable tulip reached extraordinarily high levels, and then dramatically collapsed.",
+    "keyPlayers": ["Dutch Merchants", "Speculators"],
+    "impact": "Often cited as the first recorded speculative bubble. While its economic impact was limited, it remains a powerful psychological case study on the madness of crowds and speculative excess."
+  }
+]

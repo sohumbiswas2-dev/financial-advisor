@@ -1,0 +1,674 @@
+[
+  {
+    "id": "netflix-streaming",
+    "company": "Netflix",
+    "year": 2007,
+    "industryContext": "Internet speeds are increasing globally. Digital streaming technology is emerging as a viable alternative to physical media. DVD rental by mail is currently the primary revenue source, but distribution costs are rising.",
+    "financialSituation": {
+      "revenue": "$1.2B",
+      "subscribers": "6.3 Million",
+      "marketCap": "$1.5B",
+      "metrics": [
+        {
+          "label": "DVD Shipping Cost",
+          "value": "$0.80/disc"
+        },
+        {
+          "label": "Streaming Bandwidth",
+          "value": "$0.05/hr"
+        }
+      ]
+    },
+    "rounds": [
+      {
+        "step": 1,
+        "title": "The Digital Pivot",
+        "description": "The board is divided. DVD rentals are profitable today, but Blockbuster is struggling and the future looks digital. How do we approach the 'Watch Now' feature?",
+        "options": [
+          {
+            "id": "dvd-focus",
+            "text": "Double down on DVD distribution efficiency. It's our core competency.",
+            "impact": {
+              "revenue": 1.1,
+              "subscribers": 1.05,
+              "margin": 1.05
+            },
+            "lesson": "Focusing on legacy cash cows can lead to the 'Innovator's Dilemma'.",
+            "teachMe": {
+              "principleName": "Innovator's Dilemma",
+              "definition": "Successful companies fail because they continue to do what made them successful, ignoring disruptive technologies.",
+              "infographicId": "MarketCycle",
+              "example": "Kodak invented the digital camera but buried it to protect their highly profitable film business, eventually leading to bankruptcy.",
+              "application": "By doubling down on DVDs, you protected short-term margins but left the company vulnerable to digital disruption."
+            },
+            "stakeholderImpact": {
+              "shareholders": 5,
+              "employees": 2,
+              "creditors": 2,
+              "regulators": 0,
+              "media": 10
+            }
+          },
+          {
+            "id": "streaming-heavy",
+            "text": "Invest 80% of R&D into a proprietary streaming platform immediately.",
+            "impact": {
+              "revenue": 0.9,
+              "subscribers": 1.4,
+              "margin": 0.7
+            },
+            "lesson": "Aggressive digital transformation often requires short-term margin sacrifice for long-term scale.",
+            "teachMe": {
+              "principleName": "Capital Allocation",
+              "definition": "The process of deciding how to distribute a company's financial resources to maximize shareholder value.",
+              "infographicId": "FreeCashFlow",
+              "example": "Amazon consistently reinvested its cash flow into new infrastructure (AWS, logistics) rather than paying dividends, creating massive long-term value.",
+              "application": "You sacrificed short-term profitability to fund a massive pivot, betting that future scale will offset current losses."
+            },
+            "stakeholderImpact": {
+              "shareholders": -5,
+              "employees": -5,
+              "creditors": -2,
+              "regulators": 0,
+              "media": -10
+            }
+          },
+          {
+            "id": "hybrid-experiment",
+            "text": "Launch streaming as a free add-on for DVD subscribers to test demand.",
+            "impact": {
+              "revenue": 1,
+              "subscribers": 1.2,
+              "margin": 0.9
+            },
+            "lesson": "Hybrid models allow for low-risk market testing before full-scale pivots.",
+            "teachMe": {
+              "principleName": "Option Value",
+              "definition": "The value of having the right, but not the obligation, to take a specific action in the future.",
+              "infographicId": "OptionsPayoff",
+              "example": "Microsoft often builds 'me-too' products to test markets before committing massive resources to dominate them.",
+              "application": "You created a low-cost option to test streaming demand without cannibalizing your core DVD business."
+            },
+            "stakeholderImpact": {
+              "shareholders": -5,
+              "employees": -5,
+              "creditors": -2,
+              "regulators": 0,
+              "media": -10
+            }
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Content Strategy",
+        "description": "Competitors like Amazon and Hulu are entering the fray. Licensing costs from major studios are skyrocketing. How do we secure our library?",
+        "options": [
+          {
+            "id": "license-more",
+            "text": "Pay the premium to keep Disney and Sony content. We need the hits.",
+            "impact": {
+              "revenue": 1.2,
+              "subscribers": 1.1,
+              "margin": 0.6
+            },
+            "lesson": "Reliance on third-party IP creates high variable costs and platform fragility.",
+            "stakeholderImpact": {
+              "shareholders": -5,
+              "employees": -5,
+              "creditors": -2,
+              "regulators": 0,
+              "media": -10
+            }
+          },
+          {
+            "id": "original-content",
+            "text": "Start 'Netflix Originals'. Invest $100M in a high-end political drama (House of Cards).",
+            "impact": {
+              "revenue": 1.5,
+              "subscribers": 1.8,
+              "margin": 0.8
+            },
+            "lesson": "Vertical integration into content production creates unique value and brand loyalty.",
+            "stakeholderImpact": {
+              "shareholders": -5,
+              "employees": -5,
+              "creditors": -2,
+              "regulators": 0,
+              "media": -10
+            }
+          }
+        ]
+      }
+    ],
+    "historicalReality": "Netflix successfully transitioned from a DVD-by-mail service to the world's leading streaming platform. By investing in original content early and aggressively moving away from physical media, they disrupted the entire entertainment industry.",
+    "lessons": [
+      {
+        "title": "Disruptive Innovation",
+        "text": "Incumbents often fail because they protect their current profit margins instead of embracing the technology that will replace them."
+      },
+      {
+        "title": "Content is King",
+        "text": "In a platform war, owning the IP is the ultimate competitive advantage."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone",
+    "company": "Apple",
+    "year": 2005,
+    "industryContext": "The iPod is a massive success, but mobile phones are starting to include basic MP3 players. Motorola and Nokia dominate the handset market.",
+    "financialSituation": {
+      "revenue": "$13.9B",
+      "cashOnHand": "$8.2B",
+      "metrics": [
+        {
+          "label": "iPod Market Share",
+          "value": "75%"
+        },
+        {
+          "label": "Phone Market Share",
+          "value": "0%"
+        }
+      ]
+    },
+    "rounds": [
+      {
+        "step": 1,
+        "title": "Project Purple",
+        "description": "Steve Jobs is concerned that phones will 'eat' the iPod. We have two paths: a phone with a click-wheel (iPod+Phone) or a radical multi-touch screen.",
+        "options": [
+          {
+            "id": "click-wheel",
+            "text": "Use the proven iPod click-wheel interface. It's what users know.",
+            "impact": {
+              "revenue": 1.2,
+              "marketShare": 0.05,
+              "margin": 1.1
+            },
+            "lesson": "Iterative design is safer but rarely creates a category-defining product.",
+            "stakeholderImpact": {
+              "shareholders": 5,
+              "employees": 2,
+              "creditors": 2,
+              "regulators": 0,
+              "media": 10
+            }
+          },
+          {
+            "id": "multi-touch",
+            "text": "Invest in unproven multi-touch technology. It's risky but revolutionary.",
+            "impact": {
+              "revenue": 2.5,
+              "marketShare": 0.15,
+              "margin": 1.3
+            },
+            "lesson": "Breakthrough innovation requires taking massive technical and user-experience risks.",
+            "stakeholderImpact": {
+              "shareholders": 5,
+              "employees": 2,
+              "creditors": 2,
+              "regulators": 0,
+              "media": 10
+            }
+          }
+        ]
+      }
+    ],
+    "historicalReality": "Apple chose the multi-touch path (Project Purple), resulting in the iPhone in 2007. It redefined the smartphone and turned Apple into the most valuable company in the world.",
+    "lessons": [
+      {
+        "title": "Cannibalize Yourself",
+        "text": "If you don't cannibalize your own successful products, someone else will."
+      },
+      {
+        "title": "User Experience as Moat",
+        "text": "A superior interface can disrupt established hardware giants."
+      }
+    ]
+  },
+  {
+    "id": "blockbuster-failure",
+    "company": "Blockbuster",
+    "year": 2000,
+    "industryContext": "Blockbuster is the king of video rentals with 9,000 stores. A small startup called Netflix has offered to sell itself to us for $50 million.",
+    "financialSituation": {
+      "revenue": "$4.9B",
+      "stores": "9,000+",
+      "metrics": [
+        {
+          "label": "Late Fee Revenue",
+          "value": "$800M"
+        },
+        {
+          "label": "Digital Strategy",
+          "value": "None"
+        }
+      ]
+    },
+    "rounds": [
+      {
+        "step": 1,
+        "title": "The Netflix Offer",
+        "description": "Reed Hastings (Netflix CEO) is in our office. They want $50M. They do DVD-by-mail with no late fees. Our CFO thinks it's a joke.",
+        "options": [
+          {
+            "id": "buy-netflix",
+            "text": "Buy them. $50M is a rounding error for us. Secure the future.",
+            "impact": {
+              "revenue": 1.5,
+              "digitalShare": 0.8,
+              "survival": 1
+            },
+            "lesson": "Acquiring potential disruptors early is often the cheapest form of insurance.",
+            "stakeholderImpact": {
+              "shareholders": -5,
+              "employees": -5,
+              "creditors": -2,
+              "regulators": 0,
+              "media": -10
+            }
+          },
+          {
+            "id": "reject-netflix",
+            "text": "Reject them. Our store network is our strength. Late fees are high-margin.",
+            "impact": {
+              "revenue": 1,
+              "digitalShare": 0,
+              "survival": 0.1
+            },
+            "lesson": "Over-reliance on high-margin but consumer-unfriendly practices (like late fees) creates vulnerability.",
+            "stakeholderImpact": {
+              "shareholders": -5,
+              "employees": -5,
+              "creditors": -2,
+              "regulators": 0,
+              "media": -10
+            }
+          }
+        ]
+      }
+    ],
+    "historicalReality": "Blockbuster famously laughed Netflix out of the room. By 2010, Blockbuster was bankrupt, while Netflix was worth billions.",
+    "lessons": [
+      {
+        "title": "The Sunk Cost Fallacy",
+        "text": "Blockbuster couldn't imagine a world without their expensive store network."
+      },
+      {
+        "title": "Customer Friction",
+        "text": "If your business model relies on customer annoyance (late fees), you are ripe for disruption."
+      }
+    ]
+  },
+  {
+    "id": "tesla-model-3",
+    "company": "Tesla",
+    "year": 2017,
+    "industryContext": "The Model S and X are luxury hits, but to survive, Tesla needs a mass-market car: The Model 3. We are entering 'Production Hell'.",
+    "financialSituation": {
+      "cashBurn": "$1B/quarter",
+      "stockPrice": "$20 (split-adj)",
+      "metrics": [
+        {
+          "label": "Weekly Production",
+          "value": "500 cars"
+        },
+        {
+          "label": "Target Production",
+          "value": "5,000 cars"
+        }
+      ]
+    },
+    "rounds": [
+      {
+        "step": 1,
+        "title": "Automation vs. Human",
+        "description": "Elon Musk wants to automate everything with 'The Alien Dreadnought' factory. But the robots are failing. Production is stalled.",
+        "options": [
+          {
+            "id": "simplify-factory",
+            "text": "Rip out the failing robots. Hire more humans to get the line moving.",
+            "impact": {
+              "production": 1.5,
+              "margin": 0.9,
+              "cash": 0.8
+            },
+            "lesson": "Excessive automation can be a 'technical debt' that slows down physical manufacturing.",
+            "stakeholderImpact": {
+              "shareholders": -5,
+              "employees": -5,
+              "creditors": -2,
+              "regulators": 0,
+              "media": -10
+            }
+          },
+          {
+            "id": "fix-robots",
+            "text": "Keep the robots. Spend 24/7 debugging the code. We must automate to scale.",
+            "impact": {
+              "production": 0.5,
+              "margin": 1.2,
+              "cash": 0.4
+            },
+            "lesson": "Scaling too many variables at once (new car + new factory + new automation) is a recipe for crisis.",
+            "stakeholderImpact": {
+              "shareholders": 5,
+              "employees": 2,
+              "creditors": 2,
+              "regulators": 0,
+              "media": 10
+            }
+          }
+        ]
+      }
+    ],
+    "historicalReality": "Tesla eventually simplified the line, Musk slept on the factory floor, and they hit 5,000/week in 2018, narrowly avoiding bankruptcy.",
+    "lessons": [
+      {
+        "title": "Scaling is Hard",
+        "text": "Prototypes are easy, production is hard."
+      },
+      {
+        "title": "Cash Runway",
+        "text": "In high-growth manufacturing, time is your most expensive resource."
+      }
+    ]
+  },
+  {
+    "id": "amazon-aws",
+    "company": "Amazon",
+    "year": 2003,
+    "industryContext": "Amazon is an e-commerce giant, but our internal infrastructure is a mess. We've built a set of internal tools to handle our own scale.",
+    "financialSituation": {
+      "retailMargin": "1-2%",
+      "techSpend": "$200M+",
+      "metrics": [
+        {
+          "label": "Server Utilization",
+          "value": "15%"
+        },
+        {
+          "label": "Dev Speed",
+          "value": "Slow"
+        }
+      ]
+    },
+    "rounds": [
+      {
+        "step": 1,
+        "title": "Selling the Infrastructure",
+        "description": "Jeff Bezos suggests we sell our internal computing power to other companies as a service. It's a completely different business from retail.",
+        "options": [
+          {
+            "id": "aws-launch",
+            "text": "Launch Amazon Web Services. Turn our cost center into a profit center.",
+            "impact": {
+              "revenue": 3,
+              "margin": 5,
+              "valuation": 10
+            },
+            "lesson": "Externalizing internal efficiencies can create entirely new, high-margin industries.",
+            "stakeholderImpact": {
+              "shareholders": 5,
+              "employees": 2,
+              "creditors": 2,
+              "regulators": 0,
+              "media": 10
+            }
+          },
+          {
+            "id": "retail-focus",
+            "text": "Keep the tech internal. We are a retailer, not a utility company.",
+            "impact": {
+              "revenue": 1.1,
+              "margin": 1.1,
+              "valuation": 1.2
+            },
+            "lesson": "Staying in your lane prevents distraction but misses massive 'adjacent' opportunities.",
+            "stakeholderImpact": {
+              "shareholders": 5,
+              "employees": 2,
+              "creditors": 2,
+              "regulators": 0,
+              "media": 10
+            }
+          }
+        ]
+      }
+    ],
+    "historicalReality": "AWS was launched in 2006 and now provides the majority of Amazon's operating profit, powering much of the modern internet.",
+    "lessons": [
+      {
+        "title": "Infrastructure as a Service",
+        "text": "The most valuable businesses often solve their own hardest problems and then sell the solution."
+      },
+      {
+        "title": "Margin Expansion",
+        "text": "Low-margin businesses (retail) can use their scale to build high-margin businesses (cloud)."
+      }
+    ]
+  },
+  {
+    "id": "microsoft-cloud",
+    "company": "Microsoft",
+    "year": 2014,
+    "industryContext": "Windows and Office sales are slowing. Mobile was a disaster. Satya Nadella has just taken over as CEO.",
+    "financialSituation": {
+      "cash": "$80B",
+      "stockStatus": "Stagnant for 10 years",
+      "metrics": [
+        {
+          "label": "Cloud Revenue",
+          "value": "Minimal"
+        },
+        {
+          "label": "Windows Revenue",
+          "value": "70%"
+        }
+      ]
+    },
+    "rounds": [
+      {
+        "step": 1,
+        "title": "Cloud First, Mobile First",
+        "description": "Do we keep protecting Windows, or do we put Office on the iPhone and focus entirely on the Azure cloud?",
+        "options": [
+          {
+            "id": "protect-windows",
+            "text": "Windows is our moat. Keep Office exclusive to Windows devices.",
+            "impact": {
+              "revenue": 0.9,
+              "cloudGrowth": 0.5,
+              "stock": 1
+            },
+            "lesson": "Defending a declining monopoly often accelerates the decline.",
+            "stakeholderImpact": {
+              "shareholders": -5,
+              "employees": -5,
+              "creditors": -2,
+              "regulators": 0,
+              "media": -10
+            }
+          },
+          {
+            "id": "azure-pivot",
+            "text": "Azure is the future. Make Office available everywhere (iOS/Android).",
+            "impact": {
+              "revenue": 1.5,
+              "cloudGrowth": 4,
+              "stock": 5
+            },
+            "lesson": "Embracing open ecosystems can revitalize legacy software giants.",
+            "stakeholderImpact": {
+              "shareholders": -5,
+              "employees": -5,
+              "creditors": -2,
+              "regulators": 0,
+              "media": -10
+            }
+          }
+        ]
+      }
+    ],
+    "historicalReality": "Satya Nadella pivoted Microsoft to 'Cloud First', leading to a massive resurgence in valuation and Azure becoming a close second to AWS.",
+    "lessons": [
+      {
+        "title": "Cultural Transformation",
+        "text": "Changing a company's strategy often requires changing its internal identity (from 'Windows' to 'Cloud')."
+      },
+      {
+        "title": "Ecosystem Agnosticism",
+        "text": "Software is more valuable when it runs on every device, not just your own."
+      }
+    ]
+  },
+  {
+    "id": "disney-plus",
+    "company": "Disney",
+    "year": 2017,
+    "industryContext": "Cable TV (ESPN) is losing subscribers to 'cord-cutting'. Netflix is spending billions on content. We license our movies to them.",
+    "financialSituation": {
+      "cableProfit": "$2B/quarter",
+      "licensingRev": "$500M/year",
+      "metrics": [
+        {
+          "label": "Cord Cutting Rate",
+          "value": "-5% annually"
+        },
+        {
+          "label": "Streaming Tech",
+          "value": "BAMTech (owned)"
+        }
+      ]
+    },
+    "rounds": [
+      {
+        "step": 1,
+        "title": "The Streaming War",
+        "description": "Do we keep taking Netflix's money for our movies, or do we pull our content and launch our own service?",
+        "options": [
+          {
+            "id": "launch-disney-plus",
+            "text": "Pull content from Netflix. Launch Disney+ and go Direct-to-Consumer.",
+            "impact": {
+              "subscribers": 10,
+              "shortTermProfit": 0.5,
+              "brandValue": 2
+            },
+            "lesson": "Direct-to-consumer relationships are more valuable than licensing fees in the long run.",
+            "stakeholderImpact": {
+              "shareholders": -5,
+              "employees": -5,
+              "creditors": -2,
+              "regulators": 0,
+              "media": -10
+            }
+          },
+          {
+            "id": "stay-licensor",
+            "text": "Keep licensing. It's pure profit with no technical risk.",
+            "impact": {
+              "subscribers": 0,
+              "shortTermProfit": 1.1,
+              "brandValue": 0.8
+            },
+            "lesson": "Short-term profit can blind a company to the loss of its distribution power.",
+            "stakeholderImpact": {
+              "shareholders": -5,
+              "employees": -5,
+              "creditors": -2,
+              "regulators": 0,
+              "media": -10
+            }
+          }
+        ]
+      }
+    ],
+    "historicalReality": "Disney launched Disney+ in 2019, gaining 100M subscribers in record time, though the transition from cable profits remains a challenge.",
+    "lessons": [
+      {
+        "title": "DTC Transition",
+        "text": "Owning the customer data and relationship is essential in the digital age."
+      },
+      {
+        "title": "Brand Power",
+        "text": "Strong brands (Marvel, Star Wars) can overcome late entry into a market."
+      }
+    ]
+  },
+  {
+    "id": "nokia-smartphone",
+    "company": "Nokia",
+    "year": 2007,
+    "industryContext": "Nokia is the #1 phone maker in the world. The iPhone has just been announced. Our Symbian OS is old but stable.",
+    "financialSituation": {
+      "marketShare": "40%",
+      "revenue": "€51B",
+      "metrics": [
+        {
+          "label": "R&D Budget",
+          "value": "€5B"
+        },
+        {
+          "label": "OS Complexity",
+          "value": "High"
+        }
+      ]
+    },
+    "rounds": [
+      {
+        "step": 1,
+        "title": "The Software Crisis",
+        "description": "The iPhone is a computer in a pocket. Our OS is built for phones. Do we rebuild Symbian, or switch to a new platform?",
+        "options": [
+          {
+            "id": "stick-symbian",
+            "text": "Stick with Symbian. We have the scale and the manufacturing power.",
+            "impact": {
+              "marketShare": 0.5,
+              "revenue": 0.7,
+              "survival": 0.1
+            },
+            "lesson": "Hardware dominance cannot save a company from a software paradigm shift.",
+            "stakeholderImpact": {
+              "shareholders": -5,
+              "employees": -5,
+              "creditors": -2,
+              "regulators": 0,
+              "media": -10
+            }
+          },
+          {
+            "id": "android-pivot",
+            "text": "Adopt the new 'Android' OS from Google. It's the best way to compete with Apple.",
+            "impact": {
+              "marketShare": 0.8,
+              "revenue": 1.2,
+              "survival": 0.8
+            },
+            "lesson": "In a platform war, joining a winning ecosystem is better than dying alone on your own.",
+            "stakeholderImpact": {
+              "shareholders": -5,
+              "employees": -5,
+              "creditors": -2,
+              "regulators": 0,
+              "media": -10
+            }
+          }
+        ]
+      }
+    ],
+    "historicalReality": "Nokia stuck with Symbian too long, then switched to Windows Phone, and eventually sold its mobile business to Microsoft after losing almost all market share.",
+    "lessons": [
+      {
+        "title": "Software is Eating the World",
+        "text": "Nokia thought they were a hardware company; they were actually in the software business."
+      },
+      {
+        "title": "Speed of Collapse",
+        "text": "Market leaders can go from 40% share to zero in less than 5 years during a paradigm shift."
+      }
+    ]
+  }
+]

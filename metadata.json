@@ -1,0 +1,5 @@
+{
+  "name": "The Financial Archive",
+  "description": "A historical market simulation laboratory for teaching financial decision making through archival economic documents.",
+  "requestFramePermissions": []
+}

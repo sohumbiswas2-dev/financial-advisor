@@ -1,0 +1,1847 @@
+[
+  {
+    "id": "2008-crash",
+    "name": "2008 Financial Crisis",
+    "year": 2008,
+    "description": "Collapse of the housing market and global banking crisis.",
+    "macro": {
+      "interestRate": [
+        5.25,
+        4.25,
+        2,
+        0.25
+      ],
+      "inflation": [
+        3.8,
+        4.1,
+        0.1,
+        1.6
+      ],
+      "gdpGrowth": [
+        2,
+        0.1,
+        -2.5,
+        2.6
+      ],
+      "unemployment": [
+        4.5,
+        5,
+        9.3,
+        9.6
+      ]
+    },
+    "timeline": [
+      {
+        "year": 2006,
+        "event": "Housing bubble peak"
+      },
+      {
+        "year": 2007,
+        "event": "Subprime mortgage collapse"
+      },
+      {
+        "year": 2008,
+        "event": "Lehman Brothers bankruptcy"
+      },
+      {
+        "year": 2009,
+        "event": "Global recession & Market bottom"
+      },
+      {
+        "year": 2013,
+        "event": "Full economic recovery"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "Technology",
+        "performance": "Strong Recovery",
+        "description": "Resilient balance sheets allowed for rapid post-crisis growth.",
+        "companies": [
+          {
+            "name": "Amazon",
+            "initialPrice": 90,
+            "finalPrice": 3200,
+            "description": "E-commerce dominance."
+          },
+          {
+            "name": "Apple",
+            "initialPrice": 12,
+            "finalPrice": 130,
+            "description": "iPhone revolution."
+          },
+          {
+            "name": "Microsoft",
+            "initialPrice": 30,
+            "finalPrice": 210,
+            "description": "Cloud transition."
+          },
+          {
+            "name": "BlackBerry",
+            "initialPrice": 100,
+            "finalPrice": 10,
+            "description": "Smartphone pioneer."
+          }
+        ]
+      },
+      {
+        "name": "Banking",
+        "performance": "Severe Decline",
+        "description": "Systemic risk and toxic assets led to massive write-downs.",
+        "companies": [
+          {
+            "name": "Goldman Sachs",
+            "initialPrice": 150,
+            "finalPrice": 240,
+            "description": "Surviving giant."
+          },
+          {
+            "name": "Citigroup",
+            "initialPrice": 450,
+            "finalPrice": 45,
+            "description": "Near collapse."
+          },
+          {
+            "name": "JPMorgan",
+            "initialPrice": 40,
+            "finalPrice": 120,
+            "description": "Fortress balance sheet."
+          },
+          {
+            "name": "Lehman Brothers",
+            "initialPrice": 60,
+            "finalPrice": 0,
+            "description": "Too big to fail?"
+          },
+          {
+            "name": "Bear Stearns",
+            "initialPrice": 150,
+            "finalPrice": 2,
+            "description": "Liquidity crisis victim."
+          }
+        ]
+      },
+      {
+        "name": "Real Estate",
+        "performance": "Market Crash",
+        "description": "The epicenter of the crisis; values plummeted globally.",
+        "companies": [
+          {
+            "name": "PulteGroup",
+            "initialPrice": 30,
+            "finalPrice": 45,
+            "description": "Homebuilder recovery."
+          },
+          {
+            "name": "Simon Property",
+            "initialPrice": 90,
+            "finalPrice": 110,
+            "description": "Retail REIT."
+          },
+          {
+            "name": "General Growth Properties",
+            "initialPrice": 50,
+            "finalPrice": 1,
+            "description": "Mall operator bankruptcy."
+          }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "title": "Technology Resilience",
+        "text": "Companies with strong balance sheets and high margins recover faster than leveraged financial institutions."
+      },
+      {
+        "title": "Banking Fragility",
+        "text": "High leverage and interconnectedness can turn a sector-specific issue into a systemic collapse."
+      },
+      {
+        "title": "Government Intervention",
+        "text": "Unprecedented stimulus and low rates eventually floor the market, but the path is volatile."
+      }
+    ],
+    "months": [
+      {
+        "date": "2007-02",
+        "headline": "Subprime Lenders Begin Failing",
+        "description": "New Century Financial stops accepting new loan applications as defaults rise.",
+        "impact": "Banking sector shows first signs of stress.",
+        "macro": {
+          "interestRate": 5.25,
+          "inflation": 2.4,
+          "gdpGrowth": 2,
+          "unemployment": 4.5
+        },
+        "lesson": {
+          "title": "Early Warning Signs",
+          "text": "Market bubbles often show cracks in niche sectors before the broad market reacts."
+        }
+      },
+      {
+        "date": "2007-08",
+        "headline": "Liquidity Crisis Hits Europe",
+        "description": "BNP Paribas freezes three funds due to subprime mortgage exposure.",
+        "impact": "Global interbank lending markets freeze up.",
+        "macro": {
+          "interestRate": 5.25,
+          "inflation": 2,
+          "gdpGrowth": 1.8,
+          "unemployment": 4.6
+        }
+      },
+      {
+        "date": "2008-03",
+        "headline": "Bear Stearns Collapse",
+        "description": "JPMorgan Chase acquires Bear Stearns in a Fed-backed fire sale.",
+        "impact": "Confidence in investment banks evaporates.",
+        "macro": {
+          "interestRate": 3,
+          "inflation": 4,
+          "gdpGrowth": 0.5,
+          "unemployment": 5.1
+        },
+        "lesson": {
+          "title": "Systemic Risk",
+          "text": "Interconnected financial institutions can drag each other down in a liquidity spiral."
+        }
+      },
+      {
+        "date": "2008-09",
+        "headline": "Lehman Brothers Files for Bankruptcy",
+        "description": "The 158-year-old firm collapses, triggering a global financial panic.",
+        "impact": "Global stock markets enter a freefall.",
+        "macro": {
+          "interestRate": 2,
+          "inflation": 4.9,
+          "gdpGrowth": -0.5,
+          "unemployment": 6.1
+        }
+      },
+      {
+        "date": "2008-10",
+        "headline": "TARP Bailout Passed",
+        "description": "US Congress passes the $700 billion Troubled Asset Relief Program.",
+        "impact": "Government intervention begins to provide a safety net.",
+        "macro": {
+          "interestRate": 1.5,
+          "inflation": 3.7,
+          "gdpGrowth": -2,
+          "unemployment": 6.5
+        }
+      },
+      {
+        "date": "2009-03",
+        "headline": "Market Hits Generational Bottom",
+        "description": "S&P 500 touches 666 as sentiment reaches extreme pessimism.",
+        "impact": "The worst of the selling pressure finally exhausts itself.",
+        "macro": {
+          "interestRate": 0.25,
+          "inflation": -0.4,
+          "gdpGrowth": -4.4,
+          "unemployment": 8.7
+        },
+        "lesson": {
+          "title": "Market Bottoms",
+          "text": "Markets often bottom when the news is at its absolute worst."
+        }
+      },
+      {
+        "date": "2009-06",
+        "headline": "Recession Officially Ends",
+        "description": "The NBER declares the end of the Great Recession as growth returns.",
+        "impact": "A long, slow recovery begins for the global economy.",
+        "macro": {
+          "interestRate": 0.25,
+          "inflation": -1.4,
+          "gdpGrowth": -0.7,
+          "unemployment": 9.5
+        }
+      }
+    ],
+    "requiredReputation": 100
+  },
+  {
+    "id": "dot-com-bubble",
+    "name": "Dot-Com Bubble",
+    "year": 1999,
+    "description": "Speculative bubble in internet-based companies.",
+    "macro": {
+      "interestRate": [
+        4.75,
+        5.5,
+        6.5,
+        3.5
+      ],
+      "inflation": [
+        1.6,
+        2.2,
+        3.4,
+        2.8
+      ],
+      "gdpGrowth": [
+        4.5,
+        4.8,
+        4.1,
+        1
+      ],
+      "unemployment": [
+        4.3,
+        4,
+        4,
+        4.7
+      ]
+    },
+    "timeline": [
+      {
+        "year": 1995,
+        "event": "Netscape IPO"
+      },
+      {
+        "year": 1999,
+        "event": "Irrational Exuberance peak"
+      },
+      {
+        "year": 2000,
+        "event": "Bubble bursts"
+      },
+      {
+        "year": 2001,
+        "event": "9/11 attacks & Recession"
+      },
+      {
+        "year": 2002,
+        "event": "Market bottom"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "Technology",
+        "performance": "Extreme Volatility",
+        "description": "Valuations decoupled from reality before a massive correction.",
+        "companies": [
+          {
+            "name": "Cisco",
+            "initialPrice": 80,
+            "finalPrice": 15,
+            "description": "Hardware backbone."
+          },
+          {
+            "name": "Amazon",
+            "initialPrice": 100,
+            "finalPrice": 10,
+            "description": "Surviving retailer."
+          },
+          {
+            "name": "Microsoft",
+            "initialPrice": 50,
+            "finalPrice": 25,
+            "description": "Monopoly power."
+          },
+          {
+            "name": "Pets.com",
+            "initialPrice": 11,
+            "finalPrice": 0,
+            "description": "Online pet supplies."
+          },
+          {
+            "name": "WorldCom",
+            "initialPrice": 60,
+            "finalPrice": 0,
+            "description": "Telecom giant."
+          },
+          {
+            "name": "AOL",
+            "initialPrice": 70,
+            "finalPrice": 15,
+            "description": "Internet portal leader."
+          }
+        ]
+      },
+      {
+        "name": "Consumer Goods",
+        "performance": "Steady",
+        "description": "Traditional businesses were ignored during the bubble but provided safety.",
+        "companies": [
+          {
+            "name": "Walmart",
+            "initialPrice": 40,
+            "finalPrice": 55,
+            "description": "Retail giant."
+          },
+          {
+            "name": "Coca-Cola",
+            "initialPrice": 60,
+            "finalPrice": 45,
+            "description": "Defensive play."
+          }
+        ]
+      },
+      {
+        "name": "Energy",
+        "performance": "Volatility",
+        "description": "Deregulation and new trading models created rapid growth and risk.",
+        "companies": [
+          {
+            "name": "Enron",
+            "initialPrice": 80,
+            "finalPrice": 0,
+            "description": "Innovative energy trader."
+          }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "title": "Valuation Matters",
+        "text": "Buying great companies at astronomical prices is a recipe for poor long-term returns."
+      },
+      {
+        "title": "The 'Eyeballs' Trap",
+        "text": "Revenue and user growth without a path to profitability is unsustainable."
+      },
+      {
+        "title": "Sector Rotation",
+        "text": "When one sector becomes a mania, capital often flees traditional, profitable businesses."
+      }
+    ],
+    "months": [
+      {
+        "date": "1999-01",
+        "headline": "Internet Stocks Surge in New Year",
+        "description": "Investors pour billions into any company with a '.com' suffix as the new millennium approaches.",
+        "impact": "Technology sector valuations reach record highs.",
+        "macro": {
+          "interestRate": 4.75,
+          "inflation": 1.7,
+          "gdpGrowth": 4.8,
+          "unemployment": 4.3
+        }
+      },
+      {
+        "date": "1999-05",
+        "headline": "The IPO Frenzy Continues",
+        "description": "TheGlobe.com and other startups see 600% gains on their first day of trading.",
+        "impact": "Speculative fever reaches a boiling point.",
+        "macro": {
+          "interestRate": 4.75,
+          "inflation": 2.1,
+          "gdpGrowth": 4.5,
+          "unemployment": 4.2
+        }
+      },
+      {
+        "date": "1999-12",
+        "headline": "Y2K Fears Grip Global Markets",
+        "description": "Concerns over computer systems failing at midnight cause minor liquidity hoarding.",
+        "impact": "Market remains resilient despite technical anxieties.",
+        "macro": {
+          "interestRate": 5.5,
+          "inflation": 2.7,
+          "gdpGrowth": 4.9,
+          "unemployment": 4
+        }
+      },
+      {
+        "date": "2000-03",
+        "headline": "NASDAQ Hits All-Time High",
+        "description": "The tech-heavy index touches 5,048. Analysts predict the 'New Economy' is here to stay.",
+        "impact": "The absolute peak of the Dot-Com bubble.",
+        "macro": {
+          "interestRate": 5.75,
+          "inflation": 3.8,
+          "gdpGrowth": 4.1,
+          "unemployment": 4
+        },
+        "lesson": {
+          "title": "Irrational Exuberance",
+          "text": "When everyone is convinced a market can only go up, the risk is at its highest."
+        }
+      },
+      {
+        "date": "2000-04",
+        "headline": "The Bubble Bursts",
+        "description": "A massive sell-off in tech stocks begins as investors realize many firms have no path to profit.",
+        "impact": "Billions in paper wealth evaporate in a single week.",
+        "macro": {
+          "interestRate": 6,
+          "inflation": 3,
+          "gdpGrowth": 3.5,
+          "unemployment": 3.9
+        }
+      },
+      {
+        "date": "2001-09",
+        "headline": "Terror Attacks Shut Down Wall Street",
+        "description": "The 9/11 attacks cause the longest market closure since the Great Depression.",
+        "impact": "Global uncertainty and fear lead to a deep market correction.",
+        "macro": {
+          "interestRate": 3,
+          "inflation": 2.6,
+          "gdpGrowth": 0.5,
+          "unemployment": 5
+        }
+      },
+      {
+        "date": "2002-10",
+        "headline": "Market Finally Finds a Floor",
+        "description": "After a 78% decline in the NASDAQ, the tech sector finally stabilizes.",
+        "impact": "The end of the Dot-Com bear market.",
+        "macro": {
+          "interestRate": 1.75,
+          "inflation": 2,
+          "gdpGrowth": 2.1,
+          "unemployment": 5.7
+        }
+      }
+    ],
+    "requiredReputation": 0
+  },
+  {
+    "id": "covid-crash",
+    "name": "COVID Market Crash",
+    "year": 2020,
+    "description": "Sudden global market collapse due to the pandemic.",
+    "macro": {
+      "interestRate": [
+        1.5,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "inflation": [
+        2.3,
+        1.4,
+        7,
+        6.5
+      ],
+      "gdpGrowth": [
+        2.3,
+        -3.4,
+        5.9,
+        2.1
+      ],
+      "unemployment": [
+        3.5,
+        14.7,
+        6.7,
+        3.9
+      ]
+    },
+    "timeline": [
+      {
+        "year": 2020,
+        "event": "Global lockdowns begin"
+      },
+      {
+        "year": 2020,
+        "event": "Fastest bear market in history"
+      },
+      {
+        "year": 2020,
+        "event": "Fed 'Bazooka' stimulus"
+      },
+      {
+        "year": 2021,
+        "event": "Vaccine rollout & Reopening"
+      },
+      {
+        "year": 2022,
+        "event": "Inflation surge"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "Technology",
+        "performance": "Hyper Growth",
+        "description": "Remote work and digital transformation accelerated by years.",
+        "companies": [
+          {
+            "name": "Zoom",
+            "initialPrice": 70,
+            "finalPrice": 400,
+            "description": "Video conferencing."
+          },
+          {
+            "name": "Shopify",
+            "initialPrice": 400,
+            "finalPrice": 1500,
+            "description": "E-commerce enabler."
+          },
+          {
+            "name": "Netflix",
+            "initialPrice": 300,
+            "finalPrice": 600,
+            "description": "Home entertainment."
+          },
+          {
+            "name": "Peloton",
+            "initialPrice": 30,
+            "finalPrice": 5,
+            "description": "Connected fitness."
+          }
+        ]
+      },
+      {
+        "name": "Travel & Energy",
+        "performance": "Near Total Halt",
+        "description": "Global travel restrictions and reduced industrial activity decimated revenues overnight.",
+        "companies": [
+          {
+            "name": "Delta Airlines",
+            "initialPrice": 60,
+            "finalPrice": 25,
+            "description": "Aviation crisis."
+          },
+          {
+            "name": "Airbnb",
+            "initialPrice": 140,
+            "finalPrice": 180,
+            "description": "Resilient travel."
+          },
+          {
+            "name": "Hertz",
+            "initialPrice": 20,
+            "finalPrice": 1,
+            "description": "Rental car giant."
+          },
+          {
+            "name": "Carnival",
+            "initialPrice": 50,
+            "finalPrice": 15,
+            "description": "Cruise line impact."
+          },
+          {
+            "name": "Chesapeake Energy",
+            "initialPrice": 180,
+            "finalPrice": 0,
+            "description": "Shale gas pioneer."
+          }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "title": "Black Swan Speed",
+        "text": "Modern markets react with incredible speed to global shocks."
+      },
+      {
+        "title": "Trend Acceleration",
+        "text": "Crises often act as catalysts for existing technological trends."
+      },
+      {
+        "title": "Liquidity is King",
+        "text": "Central bank intervention can decouple market performance from economic reality."
+      }
+    ],
+    "months": [
+      {
+        "date": "2020-01",
+        "headline": "Mysterious Virus Reported in China",
+        "description": "A new coronavirus strain emerges in Wuhan. Markets remain largely unconcerned.",
+        "impact": "Initial uncertainty in Asian markets.",
+        "macro": {
+          "interestRate": 1.5,
+          "inflation": 2.5,
+          "gdpGrowth": 2.1,
+          "unemployment": 3.6
+        }
+      },
+      {
+        "date": "2020-02",
+        "headline": "Global Markets Begin to Panic",
+        "description": "Virus spreads to Italy and Iran. Supply chains show signs of major disruption.",
+        "impact": "The start of the fastest 10% correction in history.",
+        "macro": {
+          "interestRate": 1.5,
+          "inflation": 2.3,
+          "gdpGrowth": 1.5,
+          "unemployment": 3.5
+        }
+      },
+      {
+        "date": "2020-03",
+        "headline": "The Great Lockdown Begins",
+        "description": "WHO declares a pandemic. US and Europe shut down. Markets enter freefall.",
+        "impact": "Extreme volatility; multiple circuit breakers triggered.",
+        "macro": {
+          "interestRate": 0.25,
+          "inflation": 1.5,
+          "gdpGrowth": -5,
+          "unemployment": 4.4
+        },
+        "lesson": {
+          "title": "Systemic Shock",
+          "text": "When the entire global economy stops simultaneously, historical models become useless."
+        }
+      },
+      {
+        "date": "2020-04",
+        "headline": "Fed Launches 'Infinite' Stimulus",
+        "description": "The Federal Reserve pledges unlimited support to keep credit markets functioning.",
+        "impact": "Markets begin a massive 'V-shaped' recovery despite bad data.",
+        "macro": {
+          "interestRate": 0.25,
+          "inflation": 0.3,
+          "gdpGrowth": -31.4,
+          "unemployment": 14.7
+        }
+      },
+      {
+        "date": "2020-11",
+        "headline": "Vaccine Breakthrough Announced",
+        "description": "Pfizer and Moderna report high efficacy for their COVID-19 vaccines.",
+        "impact": "Travel and 'reopening' stocks surge as hope returns.",
+        "macro": {
+          "interestRate": 0.25,
+          "inflation": 1.2,
+          "gdpGrowth": 33.4,
+          "unemployment": 6.7
+        }
+      },
+      {
+        "date": "2021-06",
+        "headline": "Inflation Starts to Heat Up",
+        "description": "Supply chain snarls and high demand drive prices higher than expected.",
+        "impact": "Concerns grow that 'transitory' inflation might be permanent.",
+        "macro": {
+          "interestRate": 0.25,
+          "inflation": 5.4,
+          "gdpGrowth": 6.7,
+          "unemployment": 5.9
+        }
+      }
+    ],
+    "requiredReputation": 0
+  },
+  {
+    "id": "1992-india",
+    "name": "1991 Indian Liberalization",
+    "year": 1991,
+    "description": "End of 'License Raj' and opening of the Indian economy.",
+    "macro": {
+      "interestRate": [
+        12,
+        15,
+        12,
+        10
+      ],
+      "inflation": [
+        13.5,
+        10.1,
+        9.5,
+        8
+      ],
+      "gdpGrowth": [
+        1.1,
+        5.5,
+        4.8,
+        6.6
+      ],
+      "unemployment": [
+        6,
+        5.8,
+        5.7,
+        5.5
+      ]
+    },
+    "timeline": [
+      {
+        "year": 1991,
+        "event": "Balance of Payments crisis"
+      },
+      {
+        "year": 1991,
+        "event": "Manmohan Singh's Budget"
+      },
+      {
+        "year": 1992,
+        "event": "Harshad Mehta Scam"
+      },
+      {
+        "year": 1993,
+        "event": "NSE established"
+      },
+      {
+        "year": 1995,
+        "event": "Internet arrives in India"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "Technology",
+        "performance": "Emerging Giant",
+        "description": "IT services became India's primary export engine.",
+        "companies": [
+          {
+            "name": "Infosys",
+            "initialPrice": 1,
+            "finalPrice": 100,
+            "description": "IT services pioneer."
+          },
+          {
+            "name": "Wipro",
+            "initialPrice": 2,
+            "finalPrice": 80,
+            "description": "Conglomerate to IT."
+          },
+          {
+            "name": "MTNL",
+            "initialPrice": 120,
+            "finalPrice": 30,
+            "description": "Telecom monopoly."
+          }
+        ]
+      },
+      {
+        "name": "Banking",
+        "performance": "Modernization",
+        "description": "Private banks introduced technology and efficiency.",
+        "companies": [
+          {
+            "name": "HDFC Bank",
+            "initialPrice": 10,
+            "finalPrice": 500,
+            "description": "Retail banking leader."
+          },
+          {
+            "name": "ICICI Bank",
+            "initialPrice": 15,
+            "finalPrice": 400,
+            "description": "Universal banking."
+          }
+        ]
+      },
+      {
+        "name": "Automotive",
+        "performance": "Struggling Legacy",
+        "description": "Old-world manufacturers faced new competition from global entries.",
+        "companies": [
+          {
+            "name": "Premier Automobiles",
+            "initialPrice": 40,
+            "finalPrice": 5,
+            "description": "Iconic sedan maker."
+          },
+          {
+            "name": "Hindustan Motors",
+            "initialPrice": 50,
+            "finalPrice": 10,
+            "description": "National car symbol."
+          }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "title": "Policy as Catalyst",
+        "text": "Economic liberalization can unlock massive dormant value in an economy."
+      },
+      {
+        "title": "The Middle Class Engine",
+        "text": "Opening markets creates a consumer class that drives decades of growth."
+      },
+      {
+        "title": "Global Integration",
+        "text": "Aligning local industry with global standards creates world-class competitors."
+      }
+    ],
+    "months": [
+      {
+        "date": "1991-01",
+        "headline": "India Faces Foreign Exchange Crisis",
+        "description": "Forex reserves drop to just $1.2 billion, barely enough for two weeks of imports.",
+        "impact": "Economic survival is at stake; gold reserves are airlifted to London.",
+        "macro": {
+          "interestRate": 12,
+          "inflation": 13.5,
+          "gdpGrowth": 1.1,
+          "unemployment": 6
+        }
+      },
+      {
+        "date": "1991-07",
+        "headline": "The 'LPG' Budget Presented",
+        "description": "Manmohan Singh announces Liberalization, Privatization, and Globalization.",
+        "impact": "The 'License Raj' begins to crumble; markets react with cautious optimism.",
+        "macro": {
+          "interestRate": 15,
+          "inflation": 15,
+          "gdpGrowth": 2,
+          "unemployment": 6.1
+        }
+      },
+      {
+        "date": "1992-04",
+        "headline": "Harshad Mehta Scam Exposed",
+        "description": "A massive stock market fraud involving bank receipts is uncovered.",
+        "impact": "Markets crash as the scale of the manipulation is revealed.",
+        "macro": {
+          "interestRate": 15,
+          "inflation": 12,
+          "gdpGrowth": 5.5,
+          "unemployment": 5.8
+        },
+        "lesson": {
+          "title": "Market Integrity",
+          "text": "Rapid growth must be accompanied by strong regulatory oversight to prevent systemic fraud."
+        }
+      },
+      {
+        "date": "1993-11",
+        "headline": "NSE Begins Operations",
+        "description": "The National Stock Exchange introduces electronic trading to India.",
+        "impact": "Transparency and efficiency in trading improve significantly.",
+        "macro": {
+          "interestRate": 12,
+          "inflation": 9.5,
+          "gdpGrowth": 4.8,
+          "unemployment": 5.7
+        }
+      }
+    ],
+    "requiredReputation": 0
+  },
+  {
+    "id": "oil-crisis-1973",
+    "name": "Oil Crisis 1973",
+    "year": 1973,
+    "description": "OPEC oil embargo causing massive energy price spikes.",
+    "macro": {
+      "interestRate": [
+        5.5,
+        7.5,
+        9,
+        6
+      ],
+      "inflation": [
+        3.3,
+        6.2,
+        11,
+        9.1
+      ],
+      "gdpGrowth": [
+        5.2,
+        -0.5,
+        -0.2,
+        5.4
+      ],
+      "unemployment": [
+        4.9,
+        5.6,
+        8.5,
+        7.7
+      ]
+    },
+    "timeline": [
+      {
+        "year": 1973,
+        "event": "OPEC Embargo begins"
+      },
+      {
+        "year": 1974,
+        "event": "Stock market crash"
+      },
+      {
+        "year": 1975,
+        "event": "High stagflation"
+      },
+      {
+        "year": 1979,
+        "event": "Second oil shock"
+      },
+      {
+        "year": 1980,
+        "event": "Volcker rate hikes"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "Energy",
+        "performance": "Booming",
+        "description": "Producers benefited from record-high crude prices.",
+        "companies": [
+          {
+            "name": "Exxon",
+            "initialPrice": 40,
+            "finalPrice": 120,
+            "description": "Oil major."
+          },
+          {
+            "name": "Chevron",
+            "initialPrice": 35,
+            "finalPrice": 100,
+            "description": "Energy explorer."
+          }
+        ]
+      },
+      {
+        "name": "Automotive",
+        "performance": "Crisis",
+        "description": "Gas-guzzling models became unsellable overnight.",
+        "companies": [
+          {
+            "name": "Ford",
+            "initialPrice": 60,
+            "finalPrice": 30,
+            "description": "Manufacturing struggle."
+          },
+          {
+            "name": "GM",
+            "initialPrice": 80,
+            "finalPrice": 45,
+            "description": "Efficiency laggard."
+          }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "title": "Supply Chain Geopolitics",
+        "text": "Reliance on a single region for critical resources is a major strategic risk."
+      },
+      {
+        "title": "Stagflation Reality",
+        "text": "High inflation combined with low growth is the most difficult environment for investors."
+      },
+      {
+        "title": "Efficiency Innovation",
+        "text": "Resource shocks force industries to innovate for efficiency or perish."
+      }
+    ],
+    "months": [
+      {
+        "date": "1973-10",
+        "headline": "OPEC Announces Oil Embargo",
+        "description": "Arab oil producers cut production and ban exports to the US and allies.",
+        "impact": "Energy prices triple; gas lines form across the country.",
+        "macro": {
+          "interestRate": 7.5,
+          "inflation": 6.2,
+          "gdpGrowth": -0.5,
+          "unemployment": 4.9
+        }
+      },
+      {
+        "date": "1974-01",
+        "headline": "Energy Crisis Grips the West",
+        "description": "Daylight savings time is extended and speed limits are lowered to save fuel.",
+        "impact": "Industrial production slows; consumer sentiment plummets.",
+        "macro": {
+          "interestRate": 9,
+          "inflation": 11,
+          "gdpGrowth": -1,
+          "unemployment": 5.2
+        }
+      },
+      {
+        "date": "1974-12",
+        "headline": "Stock Market in Worst Slump Since 1929",
+        "description": "The S&P 500 has lost nearly 50% of its value in two years.",
+        "impact": "A generation of investors is scarred by the stagflationary crash.",
+        "macro": {
+          "interestRate": 9.5,
+          "inflation": 12,
+          "gdpGrowth": -2,
+          "unemployment": 7.2
+        },
+        "lesson": {
+          "title": "The End of Cheap Energy",
+          "text": "The era of unlimited low-cost energy ended, forcing a global shift in industrial strategy."
+        }
+      }
+    ],
+    "requiredReputation": 0
+  },
+  {
+    "id": "asian-crisis-1997",
+    "name": "Asian Financial Crisis 1997",
+    "year": 1997,
+    "description": "Currency devaluations and financial collapse in East Asia.",
+    "macro": {
+      "interestRate": [
+        5,
+        15,
+        25,
+        10
+      ],
+      "inflation": [
+        5,
+        10,
+        20,
+        8
+      ],
+      "gdpGrowth": [
+        7,
+        -1,
+        -10,
+        5
+      ],
+      "unemployment": [
+        3,
+        5,
+        8,
+        6
+      ]
+    },
+    "timeline": [
+      {
+        "year": 1997,
+        "event": "Thai Baht devalued"
+      },
+      {
+        "year": 1997,
+        "event": "Contagion spreads to Korea/Indonesia"
+      },
+      {
+        "year": 1998,
+        "event": "Russian default"
+      },
+      {
+        "year": 1998,
+        "event": "LTCM collapse"
+      },
+      {
+        "year": 1999,
+        "event": "Regional recovery"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "Manufacturing",
+        "performance": "Export Led Recovery",
+        "description": "Devalued currencies made exports highly competitive.",
+        "companies": [
+          {
+            "name": "Samsung",
+            "initialPrice": 50,
+            "finalPrice": 200,
+            "description": "Global electronics."
+          },
+          {
+            "name": "Toyota",
+            "initialPrice": 40,
+            "finalPrice": 110,
+            "description": "Automotive efficiency."
+          }
+        ]
+      },
+      {
+        "name": "Banking",
+        "performance": "Insolvent",
+        "description": "Dollar-denominated debt became unpayable.",
+        "companies": [
+          {
+            "name": "HSBC",
+            "initialPrice": 80,
+            "finalPrice": 120,
+            "description": "Resilient global bank."
+          },
+          {
+            "name": "Local Banks",
+            "initialPrice": 50,
+            "finalPrice": 5,
+            "description": "Systemic failure."
+          }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "title": "Currency Risk",
+        "text": "Borrowing in a foreign currency while earning in a local one is extremely dangerous."
+      },
+      {
+        "title": "Contagion Effect",
+        "text": "Financial crises in one market can rapidly spread to seemingly unrelated ones."
+      },
+      {
+        "title": "Export Competitive",
+        "text": "A weak currency can be a powerful tool for rebuilding an export-led economy."
+      }
+    ],
+    "months": [
+      {
+        "date": "1997-07",
+        "headline": "Thailand Devalues the Baht",
+        "description": "The Thai government is forced to float the currency after failing to defend its peg.",
+        "impact": "The 'Asian Tiger' economies face a sudden loss of confidence.",
+        "macro": {
+          "interestRate": 15,
+          "inflation": 10,
+          "gdpGrowth": -1,
+          "unemployment": 4
+        }
+      },
+      {
+        "date": "1997-10",
+        "headline": "Contagion Hits Hong Kong and Korea",
+        "description": "Speculative attacks spread across the region; the Won and Rupiah plummet.",
+        "impact": "Global emerging market funds see record outflows.",
+        "macro": {
+          "interestRate": 20,
+          "inflation": 15,
+          "gdpGrowth": -5,
+          "unemployment": 6
+        }
+      },
+      {
+        "date": "1998-08",
+        "headline": "Russia Defaults on Debt",
+        "description": "The Russian government devalues the Ruble and suspends debt payments.",
+        "impact": "The crisis goes global, threatening major Western hedge funds.",
+        "macro": {
+          "interestRate": 25,
+          "inflation": 20,
+          "gdpGrowth": -10,
+          "unemployment": 8
+        },
+        "lesson": {
+          "title": "The Domino Effect",
+          "text": "In a globalized world, a local currency crisis can trigger a worldwide liquidity event."
+        }
+      }
+    ],
+    "requiredReputation": 0
+  },
+  {
+    "id": "inflation-2022",
+    "name": "Global Inflation Surge 2022",
+    "year": 2022,
+    "description": "Post-pandemic supply shocks and energy price spikes.",
+    "macro": {
+      "interestRate": [
+        0.25,
+        2.5,
+        4.5,
+        5.25
+      ],
+      "inflation": [
+        1.4,
+        7,
+        9.1,
+        3.2
+      ],
+      "gdpGrowth": [
+        5.9,
+        2.1,
+        1.9,
+        2.5
+      ],
+      "unemployment": [
+        6.7,
+        3.9,
+        3.5,
+        3.7
+      ]
+    },
+    "timeline": [
+      {
+        "year": 2021,
+        "event": "Supply chain bottlenecks"
+      },
+      {
+        "year": 2022,
+        "event": "Russia-Ukraine conflict"
+      },
+      {
+        "year": 2022,
+        "event": "Fed begins aggressive hikes"
+      },
+      {
+        "year": 2023,
+        "event": "Banking stress (SVB)"
+      },
+      {
+        "year": 2024,
+        "event": "Disinflation begins"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "Energy",
+        "performance": "Outperforming",
+        "description": "Geopolitical risk drove oil and gas prices to multi-year highs.",
+        "companies": [
+          {
+            "name": "Occidental",
+            "initialPrice": 30,
+            "finalPrice": 65,
+            "description": "Shale producer."
+          },
+          {
+            "name": "Shell",
+            "initialPrice": 40,
+            "finalPrice": 70,
+            "description": "Integrated energy."
+          }
+        ]
+      },
+      {
+        "name": "Technology",
+        "performance": "Correction",
+        "description": "Rising rates hurt the valuation of high-growth tech stocks.",
+        "companies": [
+          {
+            "name": "Nvidia",
+            "initialPrice": 150,
+            "finalPrice": 900,
+            "description": "AI hardware leader."
+          },
+          {
+            "name": "Tesla",
+            "initialPrice": 350,
+            "finalPrice": 180,
+            "description": "EV volatility."
+          }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "title": "Rates vs Growth",
+        "text": "When interest rates rise, the present value of future earnings drops, hitting tech hard."
+      },
+      {
+        "title": "Commodity Supercycle",
+        "text": "Underinvestment in physical assets can lead to prolonged price spikes."
+      },
+      {
+        "title": "Pricing Power",
+        "text": "In inflationary times, only companies that can pass costs to consumers survive."
+      }
+    ],
+    "months": [
+      {
+        "date": "2022-02",
+        "headline": "Conflict in Ukraine Shocks Energy Markets",
+        "description": "Natural gas and oil prices spike as geopolitical tensions reach a breaking point.",
+        "impact": "Global inflation expectations are revised sharply upward.",
+        "macro": {
+          "interestRate": 0.25,
+          "inflation": 7.9,
+          "gdpGrowth": 2.1,
+          "unemployment": 3.8
+        }
+      },
+      {
+        "date": "2022-06",
+        "headline": "US Inflation Hits 40-Year High",
+        "description": "CPI reaches 9.1%, driven by energy, food, and shelter costs.",
+        "impact": "The Federal Reserve signals a pivot to aggressive rate hikes.",
+        "macro": {
+          "interestRate": 1.75,
+          "inflation": 9.1,
+          "gdpGrowth": 1.5,
+          "unemployment": 3.6
+        }
+      },
+      {
+        "date": "2022-09",
+        "headline": "Fed Delivers Third Straight 75bps Hike",
+        "description": "Powell warns of 'pain' ahead as the central bank fights to cool the economy.",
+        "impact": "Tech stocks and bonds sell off in tandem.",
+        "macro": {
+          "interestRate": 3.25,
+          "inflation": 8.2,
+          "gdpGrowth": 1,
+          "unemployment": 3.5
+        },
+        "lesson": {
+          "title": "The End of Easy Money",
+          "text": "A decade of zero-interest rates ended abruptly, forcing a massive repricing of all global assets."
+        }
+      }
+    ],
+    "requiredReputation": 0
+  },
+  {
+    "id": "post-war-boom",
+    "name": "Post-war Economic Boom",
+    "year": 1946,
+    "description": "The golden age of capitalism following WWII.",
+    "macro": {
+      "interestRate": [
+        1,
+        1.5,
+        2,
+        3
+      ],
+      "inflation": [
+        8,
+        14,
+        -1,
+        2
+      ],
+      "gdpGrowth": [
+        -11,
+        -1,
+        4,
+        8
+      ],
+      "unemployment": [
+        1.9,
+        3.9,
+        3.8,
+        5.9
+      ]
+    },
+    "timeline": [
+      {
+        "year": 1945,
+        "event": "WWII ends"
+      },
+      {
+        "year": 1947,
+        "event": "Marshall Plan"
+      },
+      {
+        "year": 1949,
+        "event": "NATO formed"
+      },
+      {
+        "year": 1953,
+        "event": "Korean War ends"
+      },
+      {
+        "year": 1955,
+        "event": "Interstate Highway Act"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "Manufacturing",
+        "performance": "Dominant",
+        "description": "US industry supplied the world's reconstruction.",
+        "companies": [
+          {
+            "name": "GE",
+            "initialPrice": 10,
+            "finalPrice": 80,
+            "description": "Industrial giant."
+          },
+          {
+            "name": "US Steel",
+            "initialPrice": 20,
+            "finalPrice": 100,
+            "description": "Infrastructure core."
+          }
+        ]
+      },
+      {
+        "name": "Consumer Goods",
+        "performance": "Rising",
+        "description": "The birth of the modern consumer culture.",
+        "companies": [
+          {
+            "name": "Coca-Cola",
+            "initialPrice": 5,
+            "finalPrice": 40,
+            "description": "Global brand."
+          },
+          {
+            "name": "P&G",
+            "initialPrice": 8,
+            "finalPrice": 60,
+            "description": "Household staples."
+          }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "title": "Reconstruction Growth",
+        "text": "Rebuilding after conflict creates immense demand for industrial capacity."
+      },
+      {
+        "title": "Demographic Tailwinds",
+        "text": "The baby boom created a predictable, growing market for decades."
+      },
+      {
+        "title": "Global Leadership",
+        "text": "Economic dominance often follows military and technological leadership."
+      }
+    ],
+    "months": [
+      {
+        "date": "1946-01",
+        "headline": "Soldiers Return to a Changing Economy",
+        "description": "Millions of veterans re-enter the workforce as wartime production shifts to consumer goods.",
+        "impact": "Initial unemployment spikes but consumer demand is pent-up.",
+        "macro": {
+          "interestRate": 1,
+          "inflation": 8,
+          "gdpGrowth": -11,
+          "unemployment": 3.9
+        }
+      },
+      {
+        "date": "1947-06",
+        "headline": "Marshall Plan Announced",
+        "description": "US pledges billions to rebuild war-torn Europe, creating massive export demand.",
+        "impact": "Industrial manufacturing enters a multi-year boom phase.",
+        "macro": {
+          "interestRate": 1,
+          "inflation": 14,
+          "gdpGrowth": -1,
+          "unemployment": 3.9
+        }
+      },
+      {
+        "date": "1950-01",
+        "headline": "The Suburban Revolution",
+        "description": "Levittown and similar developments signal the start of a massive housing boom.",
+        "impact": "Consumer goods and appliance sales skyrocket.",
+        "macro": {
+          "interestRate": 1.5,
+          "inflation": 1,
+          "gdpGrowth": 8.7,
+          "unemployment": 5.2
+        }
+      }
+    ],
+    "requiredReputation": 0
+  },
+  {
+    "id": "ai-boom",
+    "name": "AI Technology Boom",
+    "year": 2023,
+    "description": "The generative AI revolution and computing shift.",
+    "macro": {
+      "interestRate": [
+        4.5,
+        5.25,
+        5.25,
+        4.5
+      ],
+      "inflation": [
+        6.5,
+        3.2,
+        3.1,
+        2.8
+      ],
+      "gdpGrowth": [
+        2.1,
+        2.5,
+        2.8,
+        2.4
+      ],
+      "unemployment": [
+        3.5,
+        3.7,
+        3.8,
+        4
+      ]
+    },
+    "timeline": [
+      {
+        "year": 2022,
+        "event": "ChatGPT launched"
+      },
+      {
+        "year": 2023,
+        "event": "Nvidia $1T valuation"
+      },
+      {
+        "year": 2023,
+        "event": "Microsoft/OpenAI partnership"
+      },
+      {
+        "year": 2024,
+        "event": "AI integration in all software"
+      },
+      {
+        "year": 2025,
+        "event": "Autonomous agents emerge"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "Technology",
+        "performance": "Parabolic",
+        "description": "Compute demand outstripped supply for years.",
+        "companies": [
+          {
+            "name": "Nvidia",
+            "initialPrice": 150,
+            "finalPrice": 1200,
+            "description": "AI chip monopoly."
+          },
+          {
+            "name": "Microsoft",
+            "initialPrice": 240,
+            "finalPrice": 450,
+            "description": "AI software leader."
+          },
+          {
+            "name": "AMD",
+            "initialPrice": 60,
+            "finalPrice": 200,
+            "description": "GPU competitor."
+          },
+          {
+            "name": "Unity",
+            "initialPrice": 40,
+            "finalPrice": 25,
+            "description": "AI-engine pivot."
+          },
+          {
+            "name": "C3.ai",
+            "initialPrice": 30,
+            "finalPrice": 25,
+            "description": "Enterprise AI."
+          }
+        ]
+      },
+      {
+        "name": "Energy & Infrastructure",
+        "performance": "Supporting",
+        "description": "Data centers required massive power grid upgrades and cooling systems.",
+        "companies": [
+          {
+            "name": "NextEra",
+            "initialPrice": 70,
+            "finalPrice": 90,
+            "description": "Renewable energy."
+          },
+          {
+            "name": "Vertiv",
+            "initialPrice": 15,
+            "finalPrice": 80,
+            "description": "Data center cooling."
+          },
+          {
+            "name": "DigitalOcean",
+            "initialPrice": 45,
+            "finalPrice": 35,
+            "description": "Cloud infrastructure."
+          }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "title": "Platform Shifts",
+        "text": "New computing platforms create massive wealth for hardware providers first."
+      },
+      {
+        "title": "Winner Takes Most",
+        "text": "In high-tech, the first-mover advantage and scale create deep moats."
+      },
+      {
+        "title": "Infrastructure First",
+        "text": "Before the software wins, the picks and shovels (chips/power) must be built."
+      }
+    ],
+    "months": [
+      {
+        "date": "2023-01",
+        "headline": "ChatGPT Reaches 100 Million Users",
+        "description": "The AI chatbot becomes the fastest-growing consumer application in history.",
+        "impact": "A global race for generative AI supremacy begins.",
+        "macro": {
+          "interestRate": 4.5,
+          "inflation": 6.4,
+          "gdpGrowth": 2.1,
+          "unemployment": 3.4
+        }
+      },
+      {
+        "date": "2023-05",
+        "headline": "Nvidia Forecast Shocks Wall Street",
+        "description": "The chipmaker predicts a massive surge in data center revenue due to AI demand.",
+        "impact": "Nvidia stock jumps 25% in a single day, leading a tech rally.",
+        "macro": {
+          "interestRate": 5.25,
+          "inflation": 4,
+          "gdpGrowth": 2.3,
+          "unemployment": 3.7
+        }
+      },
+      {
+        "date": "2024-03",
+        "headline": "AI Integration Reaches Critical Mass",
+        "description": "Every major software firm announces 'Copilot' features powered by LLMs.",
+        "impact": "Productivity expectations rise; tech valuations remain elevated.",
+        "macro": {
+          "interestRate": 5.25,
+          "inflation": 3.5,
+          "gdpGrowth": 2.5,
+          "unemployment": 3.8
+        }
+      }
+    ],
+    "requiredReputation": 0
+  },
+  {
+    "id": "ev-rise",
+    "name": "Electric Vehicle Rise",
+    "year": 2015,
+    "description": "The transition from internal combustion to electric power.",
+    "macro": {
+      "interestRate": [
+        0.25,
+        0.5,
+        1.25,
+        2.25
+      ],
+      "inflation": [
+        0.1,
+        1.3,
+        2.1,
+        2.4
+      ],
+      "gdpGrowth": [
+        2.7,
+        1.7,
+        2.2,
+        2.9
+      ],
+      "unemployment": [
+        5.3,
+        4.9,
+        4.4,
+        3.9
+      ]
+    },
+    "timeline": [
+      {
+        "year": 2012,
+        "event": "Tesla Model S launch"
+      },
+      {
+        "year": 2015,
+        "event": "VW Dieselgate scandal"
+      },
+      {
+        "year": 2017,
+        "event": "Model 3 production hell"
+      },
+      {
+        "year": 2020,
+        "event": "Global EV mandates"
+      },
+      {
+        "year": 2021,
+        "event": "Legacy auto pivots to EV"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "Automotive",
+        "performance": "Disruptive",
+        "description": "Software-defined vehicles challenged 100 years of engineering.",
+        "companies": [
+          {
+            "name": "Tesla",
+            "initialPrice": 15,
+            "finalPrice": 300,
+            "description": "EV pioneer."
+          },
+          {
+            "name": "BYD",
+            "initialPrice": 10,
+            "finalPrice": 70,
+            "description": "Battery & EV leader."
+          },
+          {
+            "name": "Ford",
+            "initialPrice": 15,
+            "finalPrice": 12,
+            "description": "Legacy transition."
+          },
+          {
+            "name": "Fisker",
+            "initialPrice": 15,
+            "finalPrice": 0,
+            "description": "Luxury EV designer."
+          },
+          {
+            "name": "Lordstown Motors",
+            "initialPrice": 10,
+            "finalPrice": 0,
+            "description": "Electric truck builder."
+          },
+          {
+            "name": "Nikola",
+            "initialPrice": 30,
+            "finalPrice": 1,
+            "description": "Hydrogen-electric trucks."
+          }
+        ]
+      },
+      {
+        "name": "Energy",
+        "performance": "Shifting",
+        "description": "Battery metals became the new oil.",
+        "companies": [
+          {
+            "name": "Albemarle",
+            "initialPrice": 50,
+            "finalPrice": 250,
+            "description": "Lithium producer."
+          },
+          {
+            "name": "Panasonic",
+            "initialPrice": 10,
+            "finalPrice": 15,
+            "description": "Battery partner."
+          }
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "title": "Disruption Lag",
+        "text": "Incumbents often ignore disruption until it's too late to maintain margins."
+      },
+      {
+        "title": "Vertical Integration",
+        "text": "Controlling the battery supply chain was the key differentiator for winners."
+      },
+      {
+        "title": "Regulatory Wind",
+        "text": "Government subsidies and mandates can force an entire industry to pivot."
+      }
+    ],
+    "months": [
+      {
+        "date": "2015-09",
+        "headline": "VW Dieselgate Scandal Breaks",
+        "description": "Volkswagen is caught cheating on emissions tests, shattering trust in diesel.",
+        "impact": "The shift toward electrification accelerates as regulators tighten rules.",
+        "macro": {
+          "interestRate": 0.25,
+          "inflation": 0,
+          "gdpGrowth": 2,
+          "unemployment": 5.1
+        }
+      },
+      {
+        "date": "2017-07",
+        "headline": "Tesla Model 3 Production Begins",
+        "description": "Elon Musk warns of 'production hell' as the mass-market EV enters the line.",
+        "impact": "High volatility in Tesla stock as manufacturing hurdles emerge.",
+        "macro": {
+          "interestRate": 1.25,
+          "inflation": 1.7,
+          "gdpGrowth": 2.2,
+          "unemployment": 4.3
+        }
+      },
+      {
+        "date": "2020-10",
+        "headline": "Global EV Sales Hit Record Highs",
+        "description": "China and Europe lead a massive surge in electric car adoption.",
+        "impact": "Lithium and battery metal prices begin to skyrocket.",
+        "macro": {
+          "interestRate": 0.25,
+          "inflation": 1.2,
+          "gdpGrowth": 33.4,
+          "unemployment": 6.9
+        }
+      }
+    ],
+    "requiredReputation": 0
+  }
+]

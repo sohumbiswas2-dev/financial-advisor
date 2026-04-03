@@ -1,0 +1,236 @@
+{
+  "scenarioMeta": {
+    "id": "2008-crisis",
+    "name": "2008 US Housing Crash",
+    "year": 2008,
+    "description": "Collapse of the housing market and global banking crisis.",
+    "timeline": [
+      { "year": 2007, "event": "Subprime defaults rise" },
+      { "year": 2008, "event": "Lehman Brothers collapses" },
+      { "year": 2009, "event": "Market bottoms out" }
+    ],
+    "sectors": [
+      {
+        "name": "Technology",
+        "description": "Resilient balance sheets allowed for rapid post-crisis growth.",
+        "companies": [
+          { "name": "Amazon", "sector": "Technology", "initialPrice": 90, "finalPrice": 3200, "description": "E-commerce dominance." },
+          { "name": "Apple", "sector": "Technology", "initialPrice": 12, "finalPrice": 130, "description": "iPhone revolution." },
+          { "name": "BlackBerry", "sector": "Technology", "initialPrice": 100, "finalPrice": 10, "description": "Smartphone pioneer." }
+        ]
+      },
+      {
+        "name": "Banking",
+        "description": "Systemic risk and toxic assets led to massive write-downs.",
+        "companies": [
+          { "name": "Citigroup", "sector": "Banking", "initialPrice": 500, "finalPrice": 40, "description": "Too big to fail." },
+          { "name": "JPMorgan", "sector": "Banking", "initialPrice": 45, "finalPrice": 150, "description": "Fortress balance sheet." },
+          { "name": "Lehman Brothers", "sector": "Banking", "initialPrice": 60, "finalPrice": 0, "description": "Investment bank failure." },
+          { "name": "Bear Stearns", "sector": "Banking", "initialPrice": 150, "finalPrice": 2, "description": "Liquidity crisis victim." }
+        ]
+      },
+      {
+        "name": "Energy",
+        "description": "Oil spiked then crashed with global demand.",
+        "companies": [
+          { "name": "Exxon", "sector": "Energy", "initialPrice": 80, "finalPrice": 60, "description": "Integrated major." }
+        ]
+      },
+      {
+        "name": "Healthcare",
+        "description": "Defensive sector during the crash.",
+        "companies": [
+          { "name": "J&J", "sector": "Healthcare", "initialPrice": 60, "finalPrice": 150, "description": "Diversified healthcare." }
+        ]
+      },
+      {
+        "name": "Real Estate",
+        "description": "The epicenter of the crisis.",
+        "companies": [
+          { "name": "Simon Prop", "sector": "Real Estate", "initialPrice": 100, "finalPrice": 120, "description": "Mall operator." }
+        ]
+      },
+      {
+        "name": "Consumer",
+        "description": "Staples outperformed discretionary.",
+        "companies": [
+          { "name": "Walmart", "sector": "Consumer", "initialPrice": 50, "finalPrice": 140, "description": "Discount retail." }
+        ]
+      },
+      {
+        "name": "Industrials",
+        "description": "Hit hard by the recession.",
+        "companies": [
+          { "name": "GE", "sector": "Industrials", "initialPrice": 30, "finalPrice": 10, "description": "Conglomerate." }
+        ]
+      },
+      {
+        "name": "Commodities",
+        "description": "Safe haven initially, then crashed.",
+        "companies": [
+          { "name": "BHP", "sector": "Commodities", "initialPrice": 70, "finalPrice": 60, "description": "Global miner." }
+        ]
+      }
+    ]
+  },
+  "monthlyData": [
+    {
+      "month": "September 2008",
+      "date": "2008-09",
+      "news": [
+        { "title": "Lehman Brothers Files for Bankruptcy", "summary": "The 158-year-old firm collapses, triggering a global financial panic. Markets are in freefall.", "source": "The Wall Street Journal", "sentiment": "bearish" },
+        { "title": "AIG Seeks Federal Bailout", "summary": "Insurance giant faces liquidity crisis due to credit default swaps.", "source": "Financial Times", "sentiment": "bearish" },
+        { "title": "Gold Prices Surge", "summary": "Investors flee to safety as equities plummet.", "source": "Bloomberg", "sentiment": "bullish" },
+        { "title": "Fed Injects Liquidity", "summary": "Central banks coordinate to keep credit markets functioning.", "source": "Reuters", "sentiment": "neutral" }
+      ],
+      "macroData": { "gdpGrowth": -0.5, "inflation": 4.9, "unemployment": 6.1, "interestRate": 2.0 },
+      "sectorPerformance": { "Technology": -15, "Banking": -30, "Energy": -10, "Healthcare": -5, "Real Estate": -25, "Consumer": -8, "Industrials": -18, "Commodities": -12 },
+      "fearGreedIndex": 12
+    },
+    {
+      "month": "October 2008",
+      "date": "2008-10",
+      "news": [
+        { "title": "Congress Passes TARP", "summary": "The $700 billion Troubled Asset Relief Program is signed into law.", "source": "The New York Times", "sentiment": "bullish" },
+        { "title": "Global Markets Plunge", "summary": "Despite bailouts, fear grips international exchanges.", "source": "BBC News", "sentiment": "bearish" },
+        { "title": "Warren Buffett Invests in Goldman", "summary": "Berkshire Hathaway injects $5 billion into the investment bank.", "source": "CNBC", "sentiment": "bullish" },
+        { "title": "Unemployment Rises Sharply", "summary": "Job losses mount as the recession deepens.", "source": "Labor Dept", "sentiment": "bearish" }
+      ],
+      "macroData": { "gdpGrowth": -2.0, "inflation": 3.7, "unemployment": 6.5, "interestRate": 1.5 },
+      "sectorPerformance": { "Technology": -20, "Banking": -15, "Energy": -25, "Healthcare": -10, "Real Estate": -20, "Consumer": -12, "Industrials": -22, "Commodities": -30 },
+      "fearGreedIndex": 5
+    },
+    {
+      "month": "November 2008",
+      "date": "2008-11",
+      "news": [
+        { "title": "Fed Announces QE1", "summary": "The Federal Reserve will purchase $600 billion in mortgage-backed securities.", "source": "Federal Reserve", "sentiment": "bullish" },
+        { "title": "Auto Industry Begs for Help", "summary": "Big Three automakers plead with Congress for emergency loans.", "source": "Detroit Free Press", "sentiment": "bearish" },
+        { "title": "Consumer Spending Plummets", "summary": "Retailers report worst holiday season start in decades.", "source": "Retail Dive", "sentiment": "bearish" },
+        { "title": "China Announces Stimulus", "summary": "A $586 billion infrastructure package to combat global slowdown.", "source": "Xinhua", "sentiment": "bullish" }
+      ],
+      "macroData": { "gdpGrowth": -3.5, "inflation": 1.1, "unemployment": 6.8, "interestRate": 1.0 },
+      "sectorPerformance": { "Technology": -8, "Banking": -10, "Energy": -15, "Healthcare": -2, "Real Estate": -12, "Consumer": -5, "Industrials": -10, "Commodities": -8 },
+      "fearGreedIndex": 15
+    },
+    {
+      "month": "December 2008",
+      "date": "2008-12",
+      "news": [
+        { "title": "Madoff Ponzi Scheme Exposed", "summary": "$65 billion fraud shakes investor confidence further.", "source": "SEC", "sentiment": "bearish" },
+        { "title": "Fed Cuts Rates to Zero", "summary": "Unprecedented move to a target range of 0 to 0.25%.", "source": "Wall Street Journal", "sentiment": "bullish" },
+        { "title": "Treasury Yields Hit Record Lows", "summary": "Flight to safety pushes 10-year yield below 2.1%.", "source": "Bloomberg", "sentiment": "neutral" },
+        { "title": "OPEC Cuts Production", "summary": "Cartel slashes output by 2.2 million barrels a day to halt price slide.", "source": "Reuters", "sentiment": "bullish" }
+      ],
+      "macroData": { "gdpGrowth": -4.0, "inflation": 0.1, "unemployment": 7.3, "interestRate": 0.25 },
+      "sectorPerformance": { "Technology": 2, "Banking": -5, "Energy": -2, "Healthcare": 3, "Real Estate": -8, "Consumer": 1, "Industrials": -4, "Commodities": 5 },
+      "fearGreedIndex": 20
+    },
+    {
+      "month": "January 2009",
+      "date": "2009-01",
+      "news": [
+        { "title": "Obama Inaugurated", "summary": "New administration promises swift action on economic recovery.", "source": "Washington Post", "sentiment": "bullish" },
+        { "title": "Bank of America Absorbs Merrill Losses", "summary": "Government provides additional $20 billion to stabilize BofA.", "source": "Financial Times", "sentiment": "bearish" },
+        { "title": "Job Losses Top 600,000", "summary": "Worst single-month job loss since 1974.", "source": "Labor Dept", "sentiment": "bearish" },
+        { "title": "Tech Earnings Disappoint", "summary": "Major tech firms report steep declines in enterprise spending.", "source": "TechCrunch", "sentiment": "bearish" }
+      ],
+      "macroData": { "gdpGrowth": -5.0, "inflation": 0.0, "unemployment": 7.8, "interestRate": 0.25 },
+      "sectorPerformance": { "Technology": -5, "Banking": -20, "Energy": 4, "Healthcare": -1, "Real Estate": -10, "Consumer": -3, "Industrials": -8, "Commodities": 2 },
+      "fearGreedIndex": 18
+    },
+    {
+      "month": "February 2009",
+      "date": "2009-02",
+      "news": [
+        { "title": "Stimulus Bill Signed", "summary": "The $787 billion American Recovery and Reinvestment Act becomes law.", "source": "The New York Times", "sentiment": "bullish" },
+        { "title": "Fears of Bank Nationalization", "summary": "Rumors swirl that the government may take over Citigroup and BofA.", "source": "CNBC", "sentiment": "bearish" },
+        { "title": "Housing Prices Hit Bottom", "summary": "Case-Shiller index shows record 19% year-over-year drop.", "source": "S&P", "sentiment": "bearish" },
+        { "title": "Warren Buffett's Warning", "summary": "Oracle of Omaha says economy is in 'shambles' but remains long-term optimistic.", "source": "Berkshire Hathaway", "sentiment": "neutral" }
+      ],
+      "macroData": { "gdpGrowth": -5.5, "inflation": 0.2, "unemployment": 8.3, "interestRate": 0.25 },
+      "sectorPerformance": { "Technology": -10, "Banking": -25, "Energy": -5, "Healthcare": -8, "Real Estate": -15, "Consumer": -10, "Industrials": -12, "Commodities": -10 },
+      "fearGreedIndex": 10
+    },
+    {
+      "month": "March 2009",
+      "date": "2009-03",
+      "news": [
+        { "title": "Market Hits Generational Bottom", "summary": "S&P 500 touches 666 as sentiment reaches extreme pessimism.", "source": "Bloomberg", "sentiment": "bullish" },
+        { "title": "Fed Expands QE", "summary": "Central bank will buy $300 billion in long-term Treasuries.", "source": "Federal Reserve", "sentiment": "bullish" },
+        { "title": "Banks Report Profitable Start to Year", "summary": "Citigroup and JPMorgan signal a turn in fortunes.", "source": "Wall Street Journal", "sentiment": "bullish" },
+        { "title": "Geithner Unveils Toxic Asset Plan", "summary": "Public-Private Investment Program aims to clear bank balance sheets.", "source": "Treasury Dept", "sentiment": "bullish" }
+      ],
+      "macroData": { "gdpGrowth": -4.4, "inflation": -0.4, "unemployment": 8.7, "interestRate": 0.25 },
+      "sectorPerformance": { "Technology": 15, "Banking": 25, "Energy": 10, "Healthcare": 8, "Real Estate": 12, "Consumer": 10, "Industrials": 14, "Commodities": 18 },
+      "fearGreedIndex": 35
+    }
+  ],
+  "investorDecisions": [
+    {
+      "investorId": "buffett",
+      "name": "Warren Buffett",
+      "philosophy": "Value investing, long horizon, avoids leverage",
+      "riskTolerance": 4,
+      "preferredSectors": ["Consumer", "Banking"],
+      "avoidsSectors": ["Technology", "Commodities"],
+      "allocations": { "Walmart": 4000, "JPMorgan": 3000, "J&J": 3000 }
+    },
+    {
+      "investorId": "soros",
+      "name": "George Soros",
+      "philosophy": "Macro bets, reflexivity theory, high conviction short positions",
+      "riskTolerance": 9,
+      "preferredSectors": ["Commodities", "Technology"],
+      "avoidsSectors": ["Real Estate", "Banking"],
+      "allocations": { "BHP": 5000, "Amazon": 3000, "Apple": 2000 }
+    },
+    {
+      "investorId": "lynch",
+      "name": "Peter Lynch",
+      "philosophy": "Growth at reasonable price, retail insights, sector rotation",
+      "riskTolerance": 6,
+      "preferredSectors": ["Consumer", "Technology", "Healthcare"],
+      "avoidsSectors": ["Commodities", "Real Estate"],
+      "allocations": { "Apple": 4000, "Walmart": 3000, "J&J": 3000 }
+    },
+    {
+      "investorId": "dalio",
+      "name": "Ray Dalio",
+      "philosophy": "All-weather portfolio, risk parity",
+      "riskTolerance": 5,
+      "preferredSectors": ["Commodities", "Healthcare", "Consumer"],
+      "avoidsSectors": ["Technology"],
+      "allocations": { "BHP": 2500, "J&J": 2500, "Walmart": 2500, "Exxon": 2500 }
+    }
+  ],
+  "lessonsTriggered": [
+    {
+      "id": "lesson-1",
+      "title": "The Power of Diversification",
+      "content": "When a single sector like Real Estate crashes, having investments in Healthcare or Consumer Staples can buffer your portfolio. This is why legendary investors rarely put all their eggs in one basket.",
+      "triggerCondition": "onPeriodChange",
+      "triggerValue": 2
+    },
+    {
+      "id": "lesson-2",
+      "title": "Catching a Falling Knife",
+      "content": "Buying an asset simply because it has fallen sharply can be dangerous. Ensure the underlying fundamentals justify the purchase, rather than just the price drop.",
+      "triggerCondition": "onDecision",
+      "triggerValue": "buy"
+    },
+    {
+      "id": "lesson-3",
+      "title": "Cash is a Position",
+      "content": "In times of extreme volatility, holding cash is an active investment decision. It preserves capital and provides ammunition to buy assets when prices become attractive.",
+      "triggerCondition": "onPeriodChange",
+      "triggerValue": 4
+    }
+  ],
+  "legendaryQuotes": [
+    { "investorId": "buffett", "quote": "Be fearful when others are greedy, and greedy when others are fearful." },
+    { "investorId": "soros", "quote": "The worse a situation becomes, the less it takes to turn it around, and the bigger the upside." },
+    { "investorId": "lynch", "quote": "You get recessions, you have stock market declines. If you don't understand that's going to happen, then you're not ready, you won't do well in the markets." },
+    { "investorId": "dalio", "quote": "He who lives by the crystal ball will eat shattered glass." }
+  ]
+}

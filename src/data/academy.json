@@ -1,0 +1,36 @@
+[
+  {
+    "id": "market-bubbles",
+    "title": "Market Bubbles",
+    "category": "Market Psychology",
+    "theory": "A market bubble occurs when the price of an asset significantly exceeds its intrinsic value, driven by exuberant market behavior. Bubbles typically follow a pattern of stealth, awareness, mania, and blow-off phases.",
+    "example": "During the late 1990s, the Dot-Com bubble saw internet-based companies reach astronomical valuations despite having little to no revenue.",
+    "caseStudy": {
+      "title": "The Tulip Mania of 1637",
+      "text": "In the Dutch Golden Age, contract prices for some bulbs of the recently introduced and fashionable tulip reached extraordinarily high levels and then dramatically collapsed."
+    },
+    "quiz": {
+      "question": "Which phase of a bubble is characterized by widespread public enthusiasm and irrational exuberance?",
+      "options": ["Stealth Phase", "Awareness Phase", "Mania Phase", "Blow-off Phase"],
+      "answer": 2
+    },
+    "linkedScenarioId": "2008-crash"
+  },
+  {
+    "id": "diversification",
+    "title": "Diversification",
+    "category": "Investing Strategies",
+    "theory": "Diversification is a risk management strategy that mixes a wide variety of investments within a portfolio. The rationale behind this technique is that a portfolio constructed of different kinds of assets will, on average, yield higher long-term returns and lower the risk of any individual holding or security.",
+    "example": "Instead of investing all your money in a single technology stock, you spread it across technology, healthcare, energy, and consumer goods.",
+    "caseStudy": {
+      "title": "The Lost Decade",
+      "text": "Investors who were heavily concentrated in US large-cap tech stocks during the 2000s saw negative returns for a decade, while those diversified into emerging markets and bonds saw positive growth."
+    },
+    "quiz": {
+      "question": "What is the primary goal of diversification?",
+      "options": ["To maximize short-term returns", "To eliminate all investment risk", "To reduce exposure to any single asset's risk", "To guarantee a fixed income"],
+      "answer": 2
+    },
+    "linkedScenarioId": "1992-india"
+  }
+]

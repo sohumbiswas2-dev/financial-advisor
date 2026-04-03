@@ -1,0 +1,14 @@
+[
+  {
+    "id": "2008-crisis",
+    "name": "2008 US Housing Crash",
+    "year": 2008,
+    "description": "Collapse of the housing market and global banking crisis."
+  },
+  {
+    "id": "india-1991",
+    "name": "1991 India Market Opening",
+    "year": 1991,
+    "description": "End of 'License Raj' and opening of the Indian economy."
+  }
+]
