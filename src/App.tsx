@@ -173,6 +173,7 @@ import { CorporateArchetypes } from './components/modules/CorporateArchetypes';
 import { CaseStudyDatabase } from './components/modules/CaseStudyDatabase';
 import { GlossaryText } from './components/ui/GlossaryText';
 import { DownloadReportButton } from './components/ui/DownloadReportButton';
+import LoginGate from './components/LoginGate';
 
 export default function App() {
   const [currentModule, setCurrentModule] = useState<'archive' | 'boardroom' | 'academy' | 'case-studies'>('archive');
@@ -195,6 +196,8 @@ export default function App() {
 
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [beginnerMode, setBeginnerMode] = useState(false);
+  const [blackSwansEnabled, setBlackSwansEnabled] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(() => localStorage.getItem('fa_authenticated') === 'true');
 
   useEffect(() => {
     if (isDarkMode) {
@@ -654,8 +657,8 @@ export default function App() {
     
     setCurrentBlackSwan(null);
 
-    // 8% chance to trigger a black swan event if there isn't already a historical activeEvent
-    if (!activeEvent && Math.random() < 0.08) {
+    // 8% chance to trigger a black swan event if there isn't already a historical activeEvent AND user opted in
+    if (blackSwansEnabled && !activeEvent && Math.random() < 0.08) {
       const isNegative = Math.random() > 0.5;
       bsImpact = isNegative ? -0.15 : 0.15; // 15% shock
       const sectors = Array.from(new Set(selectedScenario.sectors.map((s: any) => s.name))) as string[];
@@ -832,6 +835,10 @@ export default function App() {
     }]
   };
 
+  if (!isAuthenticated) {
+    return <LoginGate onAuthenticated={() => setIsAuthenticated(true)} />;
+  }
+
   return (
     <div className="min-h-screen max-w-[1100px] mx-auto px-6 py-12">
       {/* Header */}
@@ -860,6 +867,15 @@ export default function App() {
             title="Toggle Terminal Theme"
           >
             {isDarkMode ? '☀️' : '🌙'}
+          </button>
+          <div className="w-px h-4 bg-dark-sepia opacity-30"></div>
+          <button 
+            onClick={() => setBlackSwansEnabled(!blackSwansEnabled)}
+            className={`px-3 py-1 font-mono text-[10px] uppercase transition-all flex items-center gap-1 ${blackSwansEnabled ? 'bg-rust text-parchment' : 'hover:bg-tan-mid'}`}
+            title="Toggle random Black Swan volatility events"
+          >
+            <Zap className="w-3 h-3" />
+            {blackSwansEnabled ? '🦢 ON' : '🦢 OFF'}
           </button>
           <div className="w-px h-4 bg-dark-sepia opacity-30"></div>
           <button 

@@ -27,13 +27,13 @@
 }
 
 .dark {
-  --ink: #00ff00;
-  --parchment: #000000;
-  --sepia: #008800;
-  --dark-sepia: #004400;
-  --rust: #ff0000;
-  --tan-light: #002200;
-  --tan-mid: #004400;
+  --ink: #f1f5f9;
+  --parchment: #0f172a;
+  --sepia: #38bdf8;
+  --dark-sepia: #0ea5e9;
+  --rust: #fb7185;
+  --tan-light: #1e293b;
+  --tan-mid: #334155;
 }
 
 body {
@@ -48,12 +48,16 @@ body {
 }
 
 .dark body {
-  background-image: none;
-  font-family: "Courier New", monospace;
+  background-image: radial-gradient(circle at top right, rgba(56, 189, 248, 0.05) 0%, transparent 40%),
+                    radial-gradient(circle at bottom left, rgba(14, 165, 233, 0.05) 0%, transparent 40%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  letter-spacing: -0.01em;
 }
 
 .dark h1, .dark h2, .dark h3, .dark .app-title, .dark .hero-heading {
-  font-family: "Courier New", monospace;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.03em;
 }
 
 /* Typography Rules */
