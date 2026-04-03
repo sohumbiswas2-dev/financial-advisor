@@ -834,78 +834,97 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen max-w-[1100px] mx-auto px-6 py-12">
+    <div className="min-h-screen max-w-[1100px] mx-auto px-4 sm:px-6 py-6 sm:py-12">
       {/* Header */}
-      <header className="text-center mb-12 relative masthead">
-        <div className="absolute top-0 left-0 flex gap-4 p-2 bg-tan-light dark:bg-tan-mid border border-tan-mid font-mono text-[10px] uppercase tracking-widest text-ink">
-          <div className="flex items-center gap-1">
-            <Award className="w-3 h-3 text-sepia" /> LVL {Math.floor(xp / 1000) + 1} ({xp} XP)
+      <header className="text-center mb-12 masthead">
+        {/* Top Utility Bar */}
+        <div className="flex flex-col lg:flex-row justify-between items-center gap-4 mb-6 pt-2">
+          {/* XP & Reputation Box */}
+          <div className="flex gap-4 p-2 bg-tan-light dark:bg-tan-mid border border-tan-mid font-mono text-[10px] uppercase tracking-widest text-ink shadow-sm w-full lg:w-auto justify-center lg:justify-start">
+            <div className="flex items-center gap-1">
+              <Award className="w-3 h-3 text-sepia" /> LVL {Math.floor(xp / 1000) + 1} ({xp} XP)
+            </div>
+            <div className="flex items-center gap-1">
+              <Activity className="w-3 h-3 text-rust" /> REP: {reputation}
+            </div>
           </div>
-          <div className="flex items-center gap-1">
-            <Activity className="w-3 h-3 text-rust" /> REP: {reputation}
+
+          {/* Settings & Module Navigation Box */}
+          <div className="flex flex-wrap gap-2 p-1 bg-tan-light dark:bg-tan-mid border border-tan-mid items-center justify-center w-full lg:w-auto shadow-sm">
+            {/* Quick Settings */}
+            <div className="flex items-center gap-1">
+              <button 
+                onClick={() => setBeginnerMode(!beginnerMode)}
+                className={`px-3 py-1 font-mono text-[10px] uppercase transition-all flex items-center gap-2 ${beginnerMode ? 'bg-sepia text-parchment' : 'hover:bg-tan-mid'}`}
+                title="Toggle Beginner Mode (Simplified Language)"
+              >
+                <BookOpen className="w-3 h-3" />
+                {beginnerMode ? 'Beginner' : 'Pro'}
+              </button>
+              <div className="w-px h-4 bg-dark-sepia opacity-30 mx-1"></div>
+              <button 
+                onClick={() => setIsDarkMode(!isDarkMode)}
+                className="px-2 py-1 hover:bg-tan-mid transition-colors"
+                title="Toggle Terminal Theme"
+              >
+                {isDarkMode ? '☀️' : '🌙'}
+              </button>
+              <div className="w-px h-4 bg-dark-sepia opacity-30 mx-1"></div>
+              <button 
+                onClick={() => setBlackSwansEnabled(!blackSwansEnabled)}
+                className={`px-3 py-1 font-mono text-[10px] uppercase transition-all flex items-center gap-1 ${blackSwansEnabled ? 'bg-rust text-parchment' : 'hover:bg-tan-mid'}`}
+                title="Toggle random Black Swan volatility events"
+              >
+                <Zap className="w-3 h-3" />
+                {blackSwansEnabled ? '🦢 ON' : '🦢 OFF'}
+              </button>
+            </div>
+
+            <div className="w-px h-6 bg-dark-sepia opacity-30 hidden sm:block mx-2"></div>
+
+            {/* Module Nav */}
+            <div className="flex flex-wrap gap-2 justify-center">
+              <button 
+                onClick={() => setCurrentModule('archive')}
+                className={`px-3 py-1 font-mono text-[10px] uppercase transition-all ${currentModule === 'archive' ? 'bg-sepia text-ink' : 'hover:bg-tan-mid'}`}
+              >
+                Archive
+              </button>
+              <button 
+                onClick={() => setCurrentModule('boardroom')}
+                className={`px-3 py-1 font-mono text-[10px] uppercase transition-all ${currentModule === 'boardroom' ? 'bg-sepia text-ink' : 'hover:bg-tan-mid'}`}
+              >
+                Boardroom
+              </button>
+              <button 
+                onClick={() => setCurrentModule('case-studies')}
+                className={`px-3 py-1 font-mono text-[10px] uppercase transition-all ${currentModule === 'case-studies' ? 'bg-sepia text-ink' : 'hover:bg-tan-mid'}`}
+              >
+                Case Studies
+              </button>
+              <button 
+                onClick={() => setCurrentModule('academy')}
+                className={`px-3 py-1 font-mono text-[10px] uppercase transition-all ${currentModule === 'academy' ? 'bg-sepia text-ink' : 'hover:bg-tan-mid'}`}
+              >
+                Academy
+              </button>
+            </div>
           </div>
         </div>
-        <div className="absolute top-0 right-0 flex gap-2 p-1 bg-tan-light dark:bg-tan-mid border border-tan-mid items-center">
-          <button 
-            onClick={() => setBeginnerMode(!beginnerMode)}
-            className={`px-3 py-1 font-mono text-[10px] uppercase transition-all flex items-center gap-2 ${beginnerMode ? 'bg-sepia text-parchment' : 'hover:bg-tan-mid'}`}
-            title="Toggle Beginner Mode (Simplified Language)"
-          >
-            <BookOpen className="w-3 h-3" />
-            {beginnerMode ? 'Beginner' : 'Pro'}
-          </button>
-          <div className="w-px h-4 bg-dark-sepia opacity-30"></div>
-          <button 
-            onClick={() => setIsDarkMode(!isDarkMode)}
-            className="px-2 py-1 hover:bg-tan-mid transition-colors"
-            title="Toggle Terminal Theme"
-          >
-            {isDarkMode ? '☀️' : '🌙'}
-          </button>
-          <div className="w-px h-4 bg-dark-sepia opacity-30"></div>
-          <button 
-            onClick={() => setBlackSwansEnabled(!blackSwansEnabled)}
-            className={`px-3 py-1 font-mono text-[10px] uppercase transition-all flex items-center gap-1 ${blackSwansEnabled ? 'bg-rust text-parchment' : 'hover:bg-tan-mid'}`}
-            title="Toggle random Black Swan volatility events"
-          >
-            <Zap className="w-3 h-3" />
-            {blackSwansEnabled ? '🦢 ON' : '🦢 OFF'}
-          </button>
-          <div className="w-px h-4 bg-dark-sepia opacity-30"></div>
-          <button 
-            onClick={() => setCurrentModule('archive')}
-            className={`px-3 py-1 font-mono text-[10px] uppercase transition-all ${currentModule === 'archive' ? 'bg-sepia text-ink' : 'hover:bg-tan-mid'}`}
-          >
-            Archive
-          </button>
-          <button 
-            onClick={() => setCurrentModule('boardroom')}
-            className={`px-3 py-1 font-mono text-[10px] uppercase transition-all ${currentModule === 'boardroom' ? 'bg-sepia text-ink' : 'hover:bg-tan-mid'}`}
-          >
-            Boardroom
-          </button>
-          <button 
-            onClick={() => setCurrentModule('case-studies')}
-            className={`px-3 py-1 font-mono text-[10px] uppercase transition-all ${currentModule === 'case-studies' ? 'bg-sepia text-ink' : 'hover:bg-tan-mid'}`}
-          >
-            Case Studies
-          </button>
-          <button 
-            onClick={() => setCurrentModule('academy')}
-            className={`px-3 py-1 font-mono text-[10px] uppercase transition-all ${currentModule === 'academy' ? 'bg-sepia text-ink' : 'hover:bg-tan-mid'}`}
-          >
-            Academy
-          </button>
+
+        {/* Newspaper Masthead Identity */}
+        <div className="flex justify-between text-[10px] font-mono uppercase tracking-widest text-dark-sepia mb-4 border-b border-dark-sepia pb-1">
+          <span className="hidden sm:inline">VOL. I NO. 1</span>
+          <span className="text-center">ESTABLISHED IN THE YEAR OF OUR LORD 2025</span>
+          <span className="hidden sm:inline">PRICE: ONE GOLD COIN</span>
         </div>
-        <div className="flex justify-between text-[10px] font-mono uppercase tracking-widest text-dark-sepia mb-2 border-b border-dark-sepia pb-1">
-          <span>VOL. I NO. 1</span>
-          <span>ESTABLISHED IN THE YEAR OF OUR LORD 2025</span>
-          <span>PRICE: ONE GOLD COIN</span>
-        </div>
-        <h1 className="masthead-title mb-2">THE FINANCIAL ARCHIVE</h1>
-        <p className="masthead-subtitle">Historical Market Simulation Laboratory</p>
-        <div className="section-divider" />
-        <div className="flex justify-between text-xs font-mono uppercase tracking-widest opacity-80 text-dark-sepia">
+        
+        <h1 className="masthead-title mb-2 text-4xl sm:text-6xl break-words">THE FINANCIAL ARCHIVE</h1>
+        <p className="masthead-subtitle text-sm sm:text-base">Historical Market Simulation Laboratory</p>
+        
+        <div className="section-divider my-6" />
+        
+        <div className="flex flex-col sm:flex-row justify-between text-[10px] sm:text-xs font-mono uppercase tracking-widest opacity-80 text-dark-sepia gap-2">
           <span>Archive Serial: {selectedScenario?.id || 'GLOBAL-INDEX'}</span>
           <span>Restricted Economic Records</span>
           <span>{new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}</span>
