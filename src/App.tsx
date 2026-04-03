@@ -951,47 +951,29 @@ export default function App() {
               </div>
               
               {scenariosData.map((scenario: any) => {
-                const isLocked = scenario.requiredReputation && scenario.requiredReputation > reputation;
                 return (
                   <div 
                     key={scenario.id}
-                    onClick={() => !isLocked && handleScenarioSelect(scenario)}
-                    className={`newspaper-card p-8 flex flex-col justify-between group h-full ${isLocked ? 'opacity-60 cursor-not-allowed bg-tan-mid/20' : 'cursor-pointer'}`}
+                    onClick={() => handleScenarioSelect(scenario)}
+                    className="newspaper-card p-8 flex flex-col justify-between group h-full cursor-pointer"
                   >
                     <div>
                       <div className="flex justify-between items-start mb-4">
-                        <span className={`font-mono text-sm border border-dark-sepia px-2 py-0.5 ${isLocked ? 'bg-transparent text-ink/50' : 'bg-parchment'}`}>{scenario.year}</span>
-                        {isLocked ? (
-                          <Lock className="w-5 h-5 text-dark-sepia opacity-60" />
-                        ) : (
-                          <ChevronRight className="w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity text-rust" />
-                        )}
+                        <span className="font-mono text-sm border border-dark-sepia px-2 py-0.5 bg-parchment">{scenario.year}</span>
+                        <ChevronRight className="w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity text-rust" />
                       </div>
                       <h3 className="text-2xl mb-3 flex items-center gap-2">
                         {scenario.name}
                       </h3>
                       <p className="text-ink leading-relaxed text-sm">
-                        {isLocked ? (
-                          <span className="italic opacity-80">This case record is classified.</span>
-                        ) : (
-                          <GlossaryText text={scenario.description} beginnerMode={beginnerMode} />
-                        )}
+                        <GlossaryText text={scenario.description} beginnerMode={beginnerMode} />
                       </p>
                     </div>
                     
-                    {isLocked ? (
-                      <div className="mt-8 pt-4 border-t border-tan-mid flex items-center justify-between text-xs font-mono uppercase tracking-tighter text-rust">
-                        <span className="flex items-center gap-2">
-                          <Lock className="w-4 h-4" /> Locked
-                        </span>
-                        <span>REQ: {scenario.requiredReputation} REP</span>
-                      </div>
-                    ) : (
-                      <div className="mt-8 pt-4 border-t border-tan-mid flex items-center gap-2 text-xs font-mono uppercase tracking-tighter text-dark-sepia">
-                        <BookOpen className="w-4 h-4" />
-                        Access Records
-                      </div>
-                    )}
+                    <div className="mt-8 pt-4 border-t border-tan-mid flex items-center gap-2 text-xs font-mono uppercase tracking-tighter text-dark-sepia">
+                      <BookOpen className="w-4 h-4" />
+                      Access Records
+                    </div>
                   </div>
                 );
               })}
