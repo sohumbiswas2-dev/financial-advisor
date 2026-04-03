@@ -2,13 +2,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-ink: #1a1008;
-  --color-parchment: #f5eed8;
-  --color-sepia: #8b6914;
-  --color-dark-sepia: #5c3d0a;
-  --color-rust: #7a2e0a;
-  --color-tan-light: #e8d9b5;
-  --color-tan-mid: #c9a96e;
+  --color-ink: var(--ink);
+  --color-parchment: var(--parchment);
+  --color-sepia: var(--sepia);
+  --color-dark-sepia: var(--dark-sepia);
+  --color-rust: var(--rust);
+  --color-tan-light: var(--tan-light);
+  --color-tan-mid: var(--tan-mid);
 
   --font-serif: "IM Fell English", serif;
   --font-display: "Playfair Display", serif;
@@ -27,13 +27,13 @@
 }
 
 .dark {
-  --ink: #f1f5f9;
-  --parchment: #0f172a;
+  --ink: #f8fafc;
+  --parchment: #020617;
   --sepia: #38bdf8;
   --dark-sepia: #0ea5e9;
-  --rust: #fb7185;
-  --tan-light: #1e293b;
-  --tan-mid: #334155;
+  --rust: #f43f5e;
+  --tan-light: #0f172a;
+  --tan-mid: #1e293b;
 }
 
 body {
@@ -103,6 +103,11 @@ code, pre, .mono {
   border: 2px solid var(--dark-sepia);
   box-shadow: 4px 4px 0px var(--sepia);
   border-radius: 0;
+}
+
+.dark .newspaper-card, .dark .panel {
+  border-color: rgba(56, 189, 248, 0.4);
+  background: rgba(15, 23, 42, 0.8);
 }
 
 .section-divider {

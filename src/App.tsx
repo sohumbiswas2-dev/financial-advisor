@@ -837,7 +837,7 @@ export default function App() {
     <div className="min-h-screen max-w-[1100px] mx-auto px-6 py-12">
       {/* Header */}
       <header className="text-center mb-12 relative masthead">
-        <div className="absolute top-0 left-0 flex gap-4 p-2 bg-tan-light border border-tan-mid font-mono text-[10px] uppercase tracking-widest text-ink">
+        <div className="absolute top-0 left-0 flex gap-4 p-2 bg-tan-light dark:bg-tan-mid border border-tan-mid font-mono text-[10px] uppercase tracking-widest text-ink">
           <div className="flex items-center gap-1">
             <Award className="w-3 h-3 text-sepia" /> LVL {Math.floor(xp / 1000) + 1} ({xp} XP)
           </div>
@@ -845,7 +845,7 @@ export default function App() {
             <Activity className="w-3 h-3 text-rust" /> REP: {reputation}
           </div>
         </div>
-        <div className="absolute top-0 right-0 flex gap-2 p-1 bg-tan-light border border-tan-mid items-center">
+        <div className="absolute top-0 right-0 flex gap-2 p-1 bg-tan-light dark:bg-tan-mid border border-tan-mid items-center">
           <button 
             onClick={() => setBeginnerMode(!beginnerMode)}
             className={`px-3 py-1 font-mono text-[10px] uppercase transition-all flex items-center gap-2 ${beginnerMode ? 'bg-sepia text-parchment' : 'hover:bg-tan-mid'}`}
@@ -874,25 +874,25 @@ export default function App() {
           <div className="w-px h-4 bg-dark-sepia opacity-30"></div>
           <button 
             onClick={() => setCurrentModule('archive')}
-            className={`px-3 py-1 font-mono text-[10px] uppercase transition-all ${currentModule === 'archive' ? 'bg-ink text-parchment' : 'hover:bg-tan-mid'}`}
+            className={`px-3 py-1 font-mono text-[10px] uppercase transition-all ${currentModule === 'archive' ? 'bg-sepia text-ink' : 'hover:bg-tan-mid'}`}
           >
             Archive
           </button>
           <button 
             onClick={() => setCurrentModule('boardroom')}
-            className={`px-3 py-1 font-mono text-[10px] uppercase transition-all ${currentModule === 'boardroom' ? 'bg-ink text-parchment' : 'hover:bg-tan-mid'}`}
+            className={`px-3 py-1 font-mono text-[10px] uppercase transition-all ${currentModule === 'boardroom' ? 'bg-sepia text-ink' : 'hover:bg-tan-mid'}`}
           >
             Boardroom
           </button>
           <button 
             onClick={() => setCurrentModule('case-studies')}
-            className={`px-3 py-1 font-mono text-[10px] uppercase transition-all ${currentModule === 'case-studies' ? 'bg-ink text-parchment' : 'hover:bg-tan-mid'}`}
+            className={`px-3 py-1 font-mono text-[10px] uppercase transition-all ${currentModule === 'case-studies' ? 'bg-sepia text-ink' : 'hover:bg-tan-mid'}`}
           >
             Case Studies
           </button>
           <button 
             onClick={() => setCurrentModule('academy')}
-            className={`px-3 py-1 font-mono text-[10px] uppercase transition-all ${currentModule === 'academy' ? 'bg-ink text-parchment' : 'hover:bg-tan-mid'}`}
+            className={`px-3 py-1 font-mono text-[10px] uppercase transition-all ${currentModule === 'academy' ? 'bg-sepia text-ink' : 'hover:bg-tan-mid'}`}
           >
             Academy
           </button>
@@ -913,7 +913,7 @@ export default function App() {
       </header>
 
       {/* Stock Ticker */}
-      <div className="border-y-2 border-dark-sepia py-2 mb-12 overflow-hidden stock-ticker bg-tan-light">
+      <div className="border-y-2 border-dark-sepia py-2 mb-12 overflow-hidden stock-ticker bg-tan-light dark:bg-tan-mid">
         <div className="stock-ticker-content font-mono text-sm uppercase text-ink font-bold">
           <span className="mx-8">DJIA +1.2%</span>
           <span className="mx-8">NASDAQ -0.5%</span>
