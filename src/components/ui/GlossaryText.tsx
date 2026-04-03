@@ -81,6 +81,10 @@ export const GlossaryText: React.FC<GlossaryTextProps> = ({ text, beginnerMode =
   const [clickedTerm, setClickedTerm] = useState<string | null>(null);
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
 
+  if (!beginnerMode) {
+    return <>{text}</>;
+  }
+
   // Create a regex to match any of the glossary terms (case-insensitive)
   // Sort terms by length descending to match longer phrases first
   const terms = Object.keys(glossary).sort((a, b) => b.length - a.length);
