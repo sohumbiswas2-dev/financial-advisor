@@ -912,12 +912,7 @@ export default function App() {
           </div>
         </div>
 
-        {/* Newspaper Masthead Identity */}
-        <div className="flex justify-between text-[10px] font-mono uppercase tracking-widest text-dark-sepia mb-4 border-b border-dark-sepia pb-1">
-          <span className="hidden sm:inline">VOL. I NO. 1</span>
-          <span className="text-center">ESTABLISHED IN THE YEAR OF OUR LORD 2025</span>
-          <span className="hidden sm:inline">PRICE: ONE GOLD COIN</span>
-        </div>
+
         
         <h1 className="masthead-title mb-2 text-4xl sm:text-6xl break-words">THE FINANCIAL ARCHIVE</h1>
         <p className="masthead-subtitle text-sm sm:text-base">Historical Market Simulation Laboratory</p>
