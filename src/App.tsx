@@ -173,7 +173,6 @@ import { CorporateArchetypes } from './components/modules/CorporateArchetypes';
 import { CaseStudyDatabase } from './components/modules/CaseStudyDatabase';
 import { GlossaryText } from './components/ui/GlossaryText';
 import { DownloadReportButton } from './components/ui/DownloadReportButton';
-import LoginGate from './components/LoginGate';
 
 export default function App() {
   const [currentModule, setCurrentModule] = useState<'archive' | 'boardroom' | 'academy' | 'case-studies'>('archive');
@@ -197,7 +196,6 @@ export default function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [beginnerMode, setBeginnerMode] = useState(false);
   const [blackSwansEnabled, setBlackSwansEnabled] = useState(false);
-  const [isAuthenticated, setIsAuthenticated] = useState(() => localStorage.getItem('fa_authenticated') === 'true');
 
   useEffect(() => {
     if (isDarkMode) {
@@ -834,10 +832,6 @@ export default function App() {
       borderColor: '#f4f1ea'
     }]
   };
-
-  if (!isAuthenticated) {
-    return <LoginGate onAuthenticated={() => setIsAuthenticated(true)} />;
-  }
 
   return (
     <div className="min-h-screen max-w-[1100px] mx-auto px-6 py-12">
