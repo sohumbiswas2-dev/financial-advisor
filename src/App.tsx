@@ -996,6 +996,33 @@ export default function App() {
                   </div>
                 );
               })}
+              
+              {/* Review Section */}
+              <div className="md:col-span-full mt-16 p-8 border-2 border-dark-sepia bg-tan-light dark:bg-tan-mid text-center relative overflow-hidden important-panel">
+                <div className="absolute top-0 left-0 w-full h-[1px] bg-dark-sepia opacity-20"></div>
+                <div className="absolute bottom-0 left-0 w-full h-[1px] bg-dark-sepia opacity-20"></div>
+                
+                <h3 className="text-3xl mb-4 font-display italic">Help Us Refine the Archive</h3>
+                <p className="text-ink max-w-2xl mx-auto mb-8 font-serif leading-relaxed">
+                  Your feedback as a simulation participant is vital. Please help us improve this historical laboratory by providing your professional review.
+                </p>
+                
+                <a 
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScLPqSNK1-TzYdxOy1NrSV20EuAstOO9tNavG5GJwyi8jzIEg/viewform?usp=sharing&ouid=116724738103862054933"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 px-8 py-3 bg-sepia text-parchment font-mono text-sm uppercase tracking-widest hover:opacity-90 transition-all shadow-lg hover:shadow-xl"
+                >
+                  <Newspaper className="w-5 h-5 transition-transform group-hover:scale-110" />
+                  Leave a Review
+                </a>
+                
+                <div className="mt-6 flex justify-center gap-2 text-[10px] uppercase font-mono tracking-tighter opacity-60 text-dark-sepia">
+                  <span>Record Serial: FEEDBACK-LOOP-2025</span>
+                  <span className="mx-2">|</span>
+                  <span>End of Selection</span>
+                </div>
+              </div>
             </motion.section>
           )}
 
